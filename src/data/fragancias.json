@@ -1,0 +1,762 @@
+[
+  {
+    "nombre": "Fakhar Black",
+    "descripcion": "Fakhar Black de Lattafa Perfumes es una fragancia de la familia olfativa Oriental para Hombres. Esta fragrancia es nueva. Fakhar Black se lanzó en 2022. Las Notas de Salida son manzana, bergamota y jengibre; las Notas de Corazón son lavanda, salvia, bayas de enebro y geranio; las Notas de Fondo son haba tonka, Amberwood, cedro y vetiver.",
+    "fotoPrincipal": "/images/fragancias/FakharBlack.png",
+    "acordesPrincipales": "/images/fragancias/FakharBlackAcordesPrincipales.png",
+    "calificacion": 4.29,
+    "piramideOlfativa": "/images/fragancias/FakharBlackPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Manzana", "Bergamota", "Jengibre"],
+      "corazon": ["Lavanda", "Salvia", "Bayas de enebro", "Geranio"],
+      "fondo": ["Haba tonka", "Amberwood", "Cedro", "Vetiver"]
+    },
+    "familiaOlfativa": "Oriental",
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "9pm",
+    "descripcion": "9pm de Afnan es una fragancia de la familia olfativa Oriental Vainilla para Hombres. 9pm se lanzó en 2020. Las Notas de Salida son manzana, canela, lavanda silvestre y bergamota; las Notas de Corazón son flor de azahar del naranjo y lirio de los valles (muguete); las Notas de Fondo son vainilla, haba tonka, ámbar y pachulí.",
+    "fotoPrincipal": "/images/fragancias/9pm.png",
+    "acordesPrincipales": "/images/fragancias/9pmAcordesPrincipales.png",
+    "calificacion": 4.46,
+    "piramideOlfativa": "/images/fragancias/9pmPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Afnan",
+    "anoDeLanzamiento": 2020,
+    "notas": {
+      "salida": ["Manzana", "Canela", "Lavanda silvestre", "Bergamota"],
+      "corazon": ["Flor de azahar del naranjo", "Lirio de los valles (muguete)"],
+      "fondo": ["Vainilla", "Haba tonka", "Ámbar", "Pachulí"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Woman",
+    "descripcion": "Club de Nuit Woman de Armaf es una fragancia de la familia olfativa Floral Frutal para Mujeres. Las Notas de Salida son naranja, bergamota, toronja (pomelo) y durazno (melocotón); las Notas de Corazón son rosa, jazmín, lichi y geranio; las Notas de Fondo son pachulí, almizcle, vainilla y vetiver.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitWoman.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitWomanAcordesPrincipales.png",
+    "calificacion": 4.10,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitWomanPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Naranja", "Bergamota", "Toronja (pomelo)", "Durazno (melocotón)"],
+      "corazon": ["Rosa", "Jazmín", "Lichi", "Geranio"],
+      "fondo": ["Pachulí", "Almizcle", "Vainilla", "Vetiver"]
+    },
+    "familiaOlfativa": "Floral Frutal",
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 39.99,
+    "tamano": "105ml"
+  },
+  {
+    "nombre": "Shaheen Silver",
+    "descripcion": "Shaheen Silver de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva. Shaheen Silver se lanzó en 2022. Las Notas de Salida son bergamota y casis (grosellero negro); las Notas de Corazón son pachulí y rosa; las Notas de Fondo son musgo de roble, almizcle y ámbar.",
+    "fotoPrincipal": "/images/fragancias/ShaheenSilver.png",
+    "acordesPrincipales": "/images/fragancias/ShaheenSilverAcordesPrincipales.png",
+    "calificacion": 4.14,
+    "piramideOlfativa": "/images/fragancias/ShaheenSilverPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Bergamota", "Casis (grosellero negro)"],
+      "corazon": ["Pachulí", "Rosa"],
+      "fondo": ["Musgo de roble", "Almizcle", "Ámbar"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Amber Oud Ultra Violet",
+    "descripcion": "Amber Oud Ultra Violet de Al Haramain Perfumes es una fragancia de la familia olfativa Almizcle Floral Amaderado para Mujeres. Esta fragrancia es nueva. Amber Oud Ultra Violet se lanzó en 2024. Las Notas de Salida son jengibre, rosa y bergamota; las Notas de Corazón son nardos, jazmín y flores blancas; las Notas de Fondo son roble, pachulí y almizcle.",
+    "fotoPrincipal": "/images/fragancias/AmberOudUltraViolet.png",
+    "acordesPrincipales": "/images/fragancias/AmberOudUltraVioletAcordesPrincipales.png",
+    "calificacion": 4.11,
+    "piramideOlfativa": "/images/fragancias/AmberOudUltraVioletPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Al Haramain Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Jengibre", "Rosa", "Bergamota"],
+      "corazon": ["Nardos", "Jazmín", "Flores blancas"],
+      "fondo": ["Roble", "Pachulí", "Almizcle"]
+    },
+    "familiaOlfativa": "Almizcle Floral",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 79.99,
+    "tamano": "120ml"
+  },
+  {
+    "nombre": "His Confession",
+    "descripcion": "His Confession de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Amaderada para Hombres. Esta fragrancia es nueva. His Confession se lanzó en 2024. Las Notas de Salida son canela, lavanda y mandarina; las Notas de Corazón son iris, benjuí, Mahonial y ciprés; las Notas de Fondo son vainilla, haba tonka, ámbar, cedro, incienso y pachulí.",
+    "fotoPrincipal": "/images/fragancias/HisConfession.png",
+    "acordesPrincipales": "/images/fragancias/HisConfessionAcordesPrincipales.png",
+    "calificacion": 4.46,
+    "piramideOlfativa": "/images/fragancias/HisConfessionPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Canela", "Lavanda", "Mandarina"],
+      "corazon": ["Iris", "Benjuí", "Mahonial", "Ciprés"],
+      "fondo": ["Vainilla", "Haba tonka", "Ámbar", "Cedro", "Incienso", "Pachulí"]
+    },
+    "familiaOlfativa": "Oriental Amaderada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 49.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Amber Oud Aqua Dubai",
+    "descripcion": "Amber Oud Aqua Dubai de Al Haramain Perfumes es una fragancia de la familia olfativa Aromática Frutal para Hombres y Mujeres. Esta fragrancia es nueva. Amber Oud Aqua Dubai se lanzó en 2024. Las Notas de Salida son bergamota, mandarina y notas verdes; las Notas de Corazón son ámbar, melón, grosellas negras y piña; las Notas de Fondo son almizcle, petit grain, gálbano y vainilla.",
+    "fotoPrincipal": "/images/fragancias/AmberOudAquaDubai.png",
+    "acordesPrincipales": "/images/fragancias/AmberOudAquaDubaiAcordesPrincipales.png",
+    "calificacion": 4.38,
+    "piramideOlfativa": "/images/fragancias/AmberOudAquaDubaiPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Al Haramain Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Bergamota", "Mandarina", "Notas verdes"],
+      "corazon": ["Ámbar", "Melón", "Grosellas negras", "Piña"],
+      "fondo": ["Almizcle", "Petit grain", "Gálbano", "Vainilla"]
+    },
+    "familiaOlfativa": "Aromática Frutal",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 69.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Asad",
+    "descripcion": "Asad de Lattafa Perfumes es una fragancia de la familia olfativa Oriental para Hombres. Asad se lanzó en 2021. Las Notas de Salida son pimienta negra, tabaco y piña; las Notas de Corazón son pachulí, café y iris; las Notas de Fondo son vainilla, ámbar, Madera seca, benjuí y ládano.",
+    "fotoPrincipal": "/images/fragancias/Asad.png",
+    "acordesPrincipales": "/images/fragancias/AsadAcordesPrincipales.png",
+    "calificacion": 4.23,
+    "piramideOlfativa": "/images/fragancias/AsadPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2021,
+    "notas": {
+      "salida": ["Pimienta negra", "Tabaco", "Piña"],
+      "corazon": ["Pachulí", "Café", "Iris"],
+      "fondo": ["Vainilla", "Ámbar", "Madera seca", "Benjuí", "Ládano"]
+    },
+    "familiaOlfativa": "Oriental",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 27.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Khamrah",
+    "descripcion": "Khamrah de Lattafa Perfumes es una fragancia de la familia olfativa Aromática Especiada para Hombres y Mujeres. Esta fragrancia es nueva. Khamrah se lanzó en 2022. Las Notas de Salida son canela, nuez moscada y bergamota; las Notas de Corazón son dátiles, praliné, nardos y Mahonial; las Notas de Fondo son vainilla, haba tonka, Amberwood, mirra, benjuí y Akigalawood.",
+    "fotoPrincipal": "/images/fragancias/Khamrah.png",
+    "acordesPrincipales": "/images/fragancias/KhamrahAcordesPrincipales.png",
+    "calificacion": 4.36,
+    "piramideOlfativa": "/images/fragancias/KhamrahPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Canela", "Nuez moscada", "Bergamota"],
+      "corazon": ["Dátiles", "Praliné", "Nardos", "Mahonial"],
+      "fondo": ["Vainilla", "Haba tonka", "Amberwood", "Mirra", "Benjuí", "Akigalawood"]
+    },
+    "familiaOlfativa": "Aromática Especiada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Bade'e Al Oud Amethyst",
+    "descripcion": "Bade'e Al Oud Amethyst de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Bade'e Al Oud Amethyst se lanzó en 2021. Las Notas de Salida son pimienta rosa y bergamota; las Notas de Corazón son rosa turca, rosa de Bulgaria (rosa Damascena de Bulgaria) y jazmín; las Notas de Fondo son madera de oud, ámbar y vainilla.",
+    "fotoPrincipal": "/images/fragancias/BadeeAlOudAmethyst.png",
+    "acordesPrincipales": "/images/fragancias/BadeeAlOudAmethystAcordesPrincipales.png",
+    "calificacion": 4.09,
+    "piramideOlfativa": "/images/fragancias/BadeeAlOudAmethystPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2021,
+    "notas": {
+      "salida": ["Pimienta rosa", "Bergamota"],
+      "corazon": ["Rosa turca", "Rosa de Bulgaria (rosa Damascena de Bulgaria)", "Jazmín"],
+      "fondo": ["Madera de oud", "Ámbar", "Vainilla"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Delilah",
+    "descripcion": "Delilah de Maison Alhambra es una fragancia de la familia olfativa Floral Frutal para Mujeres. Delilah se lanzó en 2023. Las Notas de Salida son ruibarbo, lichi y bergamota; las Notas de Corazón son rosa turca, peonía y azucena; las Notas de Fondo son almizcle blanco, vainilla y cachemira.",
+    "fotoPrincipal": "/images/fragancias/Delilah.png",
+    "acordesPrincipales": "/images/fragancias/DelilahAcordesPrincipales.png",
+    "calificacion": 4.13,
+    "piramideOlfativa": "/images/fragancias/DelilahPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Maison Alhambra",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Ruibarbo", "Lichi", "Bergamota"],
+      "corazon": ["Rosa turca", "Peonía", "Azucena"],
+      "fondo": ["Almizcle blanco", "Vainilla", "Cachemira"]
+    },
+    "familiaOlfativa": "Floral Frutal",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 24.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Sehr",
+    "descripcion": "Sehr de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Floral para Hombres y Mujeres. Esta fragrancia es nueva. Sehr se lanzó en 2024. Las Notas de Salida son almendra amarga y canela; las Notas de Corazón son Akigalawood, jazmín y Pomarose; las Notas de Fondo son absoluto de vainilla, haba tonka y ámbar.",
+    "fotoPrincipal": "/images/fragancias/Sehr.png",
+    "acordesPrincipales": "/images/fragancias/SehrAcordesPrincipales.png",
+    "calificacion": 4.01,
+    "piramideOlfativa": "/images/fragancias/SehrPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Almendra amarga", "Canela"],
+      "corazon": ["Akigalawood", "Jazmín", "Pomarose"],
+      "fondo": ["Vainilla", "Haba tonka", "Ámbar"]
+    },
+    "familiaOlfativa": "Oriental Floral",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Fakhar Rose",
+    "descripcion": "Fakhar Rose de Lattafa Perfumes es una fragancia de la familia olfativa Floral para Mujeres. Esta fragrancia es nueva. Fakhar Rose se lanzó en 2022. Las Notas de Salida son frutas, azucena, granada y aldehídos; las Notas de Corazón son nardos, jazmín, gardenia, ylang-ylang, madreselva, rosa y peonía; las Notas de Fondo son vainilla, almizcle blanco, ambroxan y sándalo.",
+    "fotoPrincipal": "/images/fragancias/FakharRose.png",
+    "acordesPrincipales": "/images/fragancias/FakharRoseAcordesPrincipales.png",
+    "calificacion": 4.14,
+    "piramideOlfativa": "/images/fragancias/FakharRosePiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Frutas", "Azucena", "Granada", "Aldehídos"],
+      "corazon": ["Nardos", "Jazmín", "Gardenia", "Ylang-ylang", "Madreselva", "Rosa", "Peonía"],
+      "fondo": ["Vainilla", "Almizcle blanco", "Ambroxan", "Sándalo"]
+    },
+    "familiaOlfativa": "Floral",
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Intense Man Limited Edition Parfum",
+    "descripcion": "Club de Nuit Intense Man Limited Edition Parfum de Armaf es una fragancia de la familia olfativa para Hombres. Club de Nuit Intense Man Limited Edition Parfum se lanzó en 2021. Las Notas de Salida son limón (lima ácida), piña, lima (limón verde), pimienta negra, bergamota y pimienta rosa; las Notas de Corazón son jazmín, rosa, lirio de los valles (muguete) y fresia; las Notas de Fondo son almizcle blanco, ambroxan, ámbar gris, cedro, cuero y pachulí.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitIntenseManLimitedEditionParfum.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitIntenseManLimitedEditionParfumAcordesPrincipales.png",
+    "calificacion": 4.50,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitIntenseManLimitedEditionParfumPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2021,
+    "notas": {
+      "salida": ["Limón (lima ácida)", "Piña", "Lima (limón verde)", "Pimienta negra", "Bergamota", "Pimienta rosa"],
+      "corazon": ["Jazmín", "Rosa", "Lirio de los valles (muguete)", "Fresia"],
+      "fondo": ["Almizcle blanco", "Ambroxan", "Ámbar gris", "Cedro", "Cuero", "Pachulí"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 79.99,
+    "tamano": "105ml"
+  },
+  {
+    "nombre": "Qaed Al Fursan Unlimited",
+    "descripcion": "Qaed Al Fursan Unlimited de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva. Qaed Al Fursan Unlimited se lanzó en 2022. Las Notas de Salida son coco, cítricos y piña; las Notas de Corazón son ylang-ylang, frangipani (plumeria, plumaria, atapaima) y jazmín; las Notas de Fondo son vainilla, almizcle, sándalo y notas dulces.",
+    "fotoPrincipal": "/images/fragancias/QaedAlFursanUnlimited.png",
+    "acordesPrincipales": "/images/fragancias/QaedAlFursanUnlimitedAcordesPrincipales.png",
+    "calificacion": 3.83,
+    "piramideOlfativa": "/images/fragancias/QaedAlFursanUnlimitedPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Coco", "Cítricos", "Piña"],
+      "corazon": ["Ylang-ylang", "Frangipani (plumeria, plumaria, atapaima)", "Jazmín"],
+      "fondo": ["Vainilla", "Almizcle", "Sándalo", "Notas dulces"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 27.99,
+    "tamano": "90ml"
+  },
+  {
+    "nombre": "Yara Tous",
+    "descripcion": "Yara Tous de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Yara Tous se lanzó en 2023. Las Notas de Salida son mango, coco y maracuyá (fruta de la pasión); las Notas de Corazón son jazmín, flor de azahar del naranjo y heliotropo; las Notas de Fondo son vainilla, almizcle y cachemira.",
+    "fotoPrincipal": "/images/fragancias/YaraTous.png",
+    "acordesPrincipales": "/images/fragancias/YaraTousAcordesPrincipales.png",
+    "calificacion": 3.90,
+    "piramideOlfativa": "/images/fragancias/YaraTousPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Mango", "Coco", "Maracuyá (fruta de la pasión)"],
+      "corazon": ["Jazmín", "Flor de azahar del naranjo", "Heliotropo"],
+      "fondo": ["Vainilla", "Almizcle", "Cachemira"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Verano", "Día"],
+    "precio": 30.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Musamam",
+    "descripcion": "Musamam de Lattafa Perfumes es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Musamam se lanzó en 2022. Las Notas de Salida son azafrán, mandarina italiana y lavanda; las Notas de Corazón son Amberwood, cedro de Virginia y geranio; las Notas de Fondo son Akigalawood, incienso y ládano.",
+    "fotoPrincipal": "/images/fragancias/Musamam.png",
+    "acordesPrincipales": "/images/fragancias/MusamamAcordesPrincipales.png",
+    "calificacion": 3.80,
+    "piramideOlfativa": "/images/fragancias/MusamamPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Azafrán", "Mandarina italiana", "Lavanda"],
+      "corazon": ["Amberwood", "Cedro de Virginia", "Geranio"],
+      "fondo": ["Akigalawood", "Incienso", "Ládano"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 42.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Nebras",
+    "descripcion": "Nebras de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Esta fragrancia es nueva. Nebras se lanzó en 2022. Las Notas de Salida son bayas rojas y mandarina; las Notas de Corazón son vainilla, cacao y rosa; las Notas de Fondo son azúcar, haba tonka, ámbar y almizcle.",
+    "fotoPrincipal": "/images/fragancias/Nebras.png",
+    "acordesPrincipales": "/images/fragancias/NebrasAcordesPrincipales.png",
+    "calificacion": 4.26,
+    "piramideOlfativa": "/images/fragancias/NebrasPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Bayas rojas", "Mandarina"],
+      "corazon": ["Vainilla", "Cacao", "Rosa"],
+      "fondo": ["Azúcar", "Haba tonka", "Ámbar", "Almizcle"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 42.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Blue Iconic",
+    "descripcion": "Club de Nuit Blue Iconic de Armaf es una fragancia de la familia olfativa para Hombres. Esta fragrancia es nueva. Club de Nuit Blue Iconic se lanzó en 2022. Las Notas de Salida son toronja (pomelo), limón (lima ácida), menta, pimienta rosa y cilantro; las Notas de Corazón son jengibre, melón, nuez moscada y jazmín; las Notas de Fondo son notas amaderadas, incienso, sándalo, ámbar, cedro, pachulí y ládano.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitBlueIconic.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitBlueIconicAcordesPrincipales.png",
+    "calificacion": 4.30,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitBlueIconicPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Toronja (pomelo)", "Limón (lima ácida)", "Menta", "Pimienta rosa", "Cilantro"],
+      "corazon": ["Jengibre", "Melón", "Nuez moscada", "Jazmín"],
+      "fondo": ["Notas amaderadas", "Incienso", "Sándalo", "Ámbar", "Cedro", "Pachulí", "Ládano"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 44.99,
+    "tamano": "105ml"
+  },
+  {
+    "nombre": "Bade'e Al Oud Oud for Glory",
+    "descripcion": "Bade'e Al Oud Oud for Glory de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Bade'e Al Oud Oud for Glory se lanzó en 2020. Las Notas de Salida son azafrán, nuez moscada y lavanda; las Notas de Corazón son madera de oud y pachulí; las Notas de Fondo son madera de oud, pachulí y almizcle.",
+    "fotoPrincipal": "/images/fragancias/BadeeAlOudOudforGlory.png",
+    "acordesPrincipales": "/images/fragancias/BadeeAlOudOudforGloryAcordesPrincipales.png",
+    "calificacion": 4.17,
+    "piramideOlfativa": "/images/fragancias/BadeeAlOudOudforGloryPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2020,
+    "notas": {
+      "salida": ["Azafrán", "Nuez moscada", "Lavanda"],
+      "corazon": ["Madera de oud", "Pachulí"],
+      "fondo": ["Madera de oud", "Pachulí", "Almizcle"]
+    },
+    "familiaOlfativa": "Oriental Amaderada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 30.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Hayaati",
+    "descripcion": "Hayaati de Lattafa Perfumes es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Hayaati se lanzó en 2020. Las Notas de Salida son manzana y bergamota; las Notas de Corazón son canela y notas amaderadas; las Notas de Fondo son almizcle y vainilla.",
+    "fotoPrincipal": "/images/fragancias/Hayaati.png",
+    "acordesPrincipales": "/images/fragancias/HayaatiAcordesPrincipales.png",
+    "calificacion": 4.16,
+    "piramideOlfativa": "/images/fragancias/HayaatiPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2020,
+    "notas": {
+      "salida": ["Manzana", "Bergamota"],
+      "corazon": ["Canela", "Notas amaderadas"],
+      "fondo": ["Almizcle", "Vainilla"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 27.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Khair Fusion",
+    "descripcion": "Khair Fusion de Paris Corner es una fragancia de la familia olfativa Floral Frutal para Hombres y Mujeres. Esta fragrancia es nueva. Khair Fusion se lanzó en 2023. Las Notas de Salida son lichi, manzana roja, grosellas negras y limón italiano (lima italiana); las Notas de Corazón son jazmín sambac (sampaguita), pensamiento y rosa de Taif; las Notas de Fondo son almizcle, vainilla, vainilla, sándalo y cedro.",
+    "fotoPrincipal": "/images/fragancias/KhairFusion.png",
+    "acordesPrincipales": "/images/fragancias/KhairFusionAcordesPrincipales.png",
+    "calificacion": 4.39,
+    "piramideOlfativa": "/images/fragancias/KhairFusionPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Paris Corner",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Lichi", "Manzana roja", "Grosellas negras", "Limón italiano (lima italiana)"],
+      "corazon": ["Jazmín sambac (sampaguita)", "Pensamiento", "Rosa de Taif"],
+      "fondo": ["Almizcle", "Vainilla", "Vainilla", "Sándalo", "Cedro"]
+    },
+    "familiaOlfativa": "Floral Frutal",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Precieux",
+    "descripcion": "Club de Nuit Precieux de Armaf es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Esta fragrancia es nueva. Club de Nuit Precieux se lanzó en 2024. Las Notas de Salida son piña, limón (lima ácida), caramelo, pera, bergamota, pimienta rosa y pimienta negra; las Notas de Corazón son musgo de roble, madera blanca, anís, lirio de los valles (muguete) y jazmín; las Notas de Fondo son ambroxan, vainilla, cuero, ámbar, almizcle blanco, cedro y pachulí.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitPrecieux.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitPrecieuxAcordesPrincipales.png",
+    "calificacion": 4.51,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitPrecieuxPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Piña", "Limón (lima ácida)", "Caramelo", "Pera", "Bergamota", "Pimienta rosa", "Pimienta negra"],
+      "corazon": ["Musgo de roble", "Madera blanca", "anís", "Lirio de los valles (muguete)", "Jazmín"],
+      "fondo": ["Ambroxan", "Vainilla", "Cuero", "Ámbar", "Almizcle blanco", "Cedro", "Pachulí"]
+    },
+    "familiaOlfativa": "Oriental Amaderada",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 69.99,
+    "tamano": "55ml"
+  },
+  {
+    "nombre": "Yara",
+    "descripcion": "Yara de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Vainilla para Mujeres. Yara se lanzó en 2020. Las Notas de Salida son orquídea, heliotropo y naranja tangerina; las Notas de Corazón son Acuerdo goloso y frutas tropicales; las Notas de Fondo son vainilla, almizcle y sándalo.",
+    "fotoPrincipal": "/images/fragancias/Yara.png",
+    "acordesPrincipales": "/images/fragancias/YaraAcordesPrincipales.png",
+    "calificacion": 4.06,
+    "piramideOlfativa": "/images/fragancias/YaraPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2020,
+    "notas": {
+      "salida": ["Orquídea", "Heliotropo", "Naranja tangerina"],
+      "corazon": ["Acuerdo goloso", "Frutas tropicales", "anís", "Lirio de los valles (muguete)", "Jazmín"],
+      "fondo": ["Vainilla", "Almizcle", "Sándalo"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Noble Blush",
+    "descripcion": "Noble Blush de Lattafa Perfumes es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Noble Blush se lanzó en 2024. La Nota de Salida es Rose Milk; las Notas de Corazón son merengue y almendra; las Notas de Fondo son vainilla, sándalo y almizcle.",
+    "fotoPrincipal": "/images/fragancias/NobleBlush.png",
+    "acordesPrincipales": "/images/fragancias/NobleBlushAcordesPrincipales.png",
+    "calificacion": 4.21,
+    "piramideOlfativa": "/images/fragancias/NobleBlushPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Rose Milk"],
+      "corazon": ["Merengue", "Almendra"],
+      "fondo": ["Vainilla", "Sándalo", "Almizcle"]
+    },
+    "familiaOlfativa": "Floral Frutal",
+    "ocasiones": ["Invierno", "Primavera", "Otoño", "Día"],
+    "precio": 37.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Eclaire",
+    "descripcion": "Eclaire de Lattafa Perfumes es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Eclaire se lanzó en 2024. Las Notas de Salida son caramelo, leche y azúcar; las Notas de Corazón son miel y flores blancas; las Notas de Fondo son vainilla, praliné y almizcle.",
+    "fotoPrincipal": "/images/fragancias/Eclaire.png",
+    "acordesPrincipales": "/images/fragancias/EclaireAcordesPrincipales.png",
+    "calificacion": 4.28,
+    "piramideOlfativa": "/images/fragancias/EclairePiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Caramelo", "Leche", "Azúcar"],
+      "corazon": ["Miel", "Flores blancas"],
+      "fondo": ["Vainilla", "Praliné", "Almizcle"]
+    },
+    "familiaOlfativa": "Floral Frutal Gourmand",
+    "ocasiones": ["Invierno", "Otoño", "Día", "Noche"],
+    "precio": 35.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Khair Confection",
+    "descripcion": "Khair Confection de Paris Corner es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Khair Confection se lanzó en 2024. Las Notas de Salida son pera y crema batida; las Notas de Corazón son cachemira, jazmín y ylang-ylang; las Notas de Fondo son vainilla, malvavisco (bombón) y sándalo.",
+    "fotoPrincipal": "/images/fragancias/KhairConfection.png",
+    "acordesPrincipales": "/images/fragancias/KhairConfectionAcordesPrincipales.png",
+    "calificacion": 4.28,
+    "piramideOlfativa": "/images/fragancias/KhairConfectionPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Paris Corner",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Pera", "Crema batida"],
+      "corazon": ["Cachemira", "Jazmín", "Ylang-ylang"],
+      "fondo": ["Vainilla", "Malvavisco (bombón)", "Sándalo"]
+    },
+    "familiaOlfativa": "Floral Frutal Gourmand",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Asad Zanzibar",
+    "descripcion": "Asad Zanzibar de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres. Esta fragrancia es nueva. Asad Zanzibar se lanzó en 2024. La Nariz detrás de esta fragrancia es Fanny Bal. Las Notas de Salida son lavanda y pimienta negra; las Notas de Corazón son Agua de coco, iris y sal; las Notas de Fondo son vainilla y incienso.",
+    "fotoPrincipal": "/images/fragancias/AsadZanzibar.png",
+    "acordesPrincipales": "/images/fragancias/AsadZanzibarAcordesPrincipales.png",
+    "calificacion": 3.70,
+    "piramideOlfativa": "/images/fragancias/AsadZanzibarPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Lavanda", "Pimienta negra"],
+      "corazon": ["Agua de coco", "Iris", "Sal"],
+      "fondo": ["Vainilla", "Incienso"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Khair Pistachio",
+    "descripcion": "Khair Pistachio de Paris Corner es una fragancia de la familia olfativa Floral Frutal Gourmand para Hombres y Mujeres. Esta fragrancia es nueva. Khair Pistachio se lanzó en 2023. Las Notas de Salida son pistacho (pistache), helado, bergamota, avellana, cardamomo y ron; las Notas de Corazón son pera, jazmín, peonía, frambuesa, geranio y durazno blanco (melocotón blanco); las Notas de Fondo son crema batida, malvavisco (bombón), algodón de azúcar, haba tonka y cedro.",
+    "fotoPrincipal": "/images/fragancias/KhairPistachio.png",
+    "acordesPrincipales": "/images/fragancias/KhairPistachioAcordesPrincipales.png",
+    "calificacion": 4.19,
+    "piramideOlfativa": "/images/fragancias/KhairPistachioPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Paris Corner",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Pistacho (pistache)", "Helado", "Bergamota", "Avellana", "Cardamomo", "Ron"],
+      "corazon": ["Pera", "Jazmín", "Peonía", "Frambuesa", "Geranio", "Durazno blanco (melocotón blanco)"],
+      "fondo": ["Crema batida", "Malvavisco (bombón)", "Algodón de azúcar", "Haba tonka", "Cedro"]
+    },
+    "familiaOlfativa": "Floral Frutal Gourmand",
+    "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Maahir Legacy",
+    "descripcion": "Maahir Legacy de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres. Las Notas de Salida son lima (limón verde), menta, toronja (pomelo), lavanda y piña; las Notas de Corazón son pimienta negra, baya de enebro, romero, geranio y Incienso; las Notas de Fondo son ambroxan, musgo de roble, vetiver, haba tonka y cachemira.",
+    "fotoPrincipal": "/images/fragancias/MaahirLegacy.png",
+    "acordesPrincipales": "/images/fragancias/MaahirLegacyAcordesPrincipales.png",
+    "calificacion": 4.22,
+    "piramideOlfativa": "/images/fragancias/MaahirLegacyPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Lima (limón verde)", "Menta", "Toronja (pomelo)", "Lavanda", "Piña"],
+      "corazon": ["Pimienta negra", "Baya de enebro", "Romero", "Geranio", "Incienso"],
+      "fondo": ["Ambroxan", "Musgo de roble", "Vetiver", "Haba tonka", "Cachemira"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Hayaati Gold Elixir",
+    "descripcion": "Hayaati Gold Elixir de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Las Notas de Salida son bergamota, toronja (pomelo) y casis (grosellero negro); las Notas de Corazón son cuero, durazno (melocotón) y azafrán; las Notas de Fondo son vainilla, ámbar, almizcle y vetiver.",
+    "fotoPrincipal": "/images/fragancias/HayaatiGoldElixir.png",
+    "acordesPrincipales": "/images/fragancias/HayaatiGoldElixirAcordesPrincipales.png",
+    "calificacion": 3.95,
+    "piramideOlfativa": "/images/fragancias/HayaatiGoldElixirPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Bergamota", "Toronja (pomelo)", "Casis (grosellero negro)"],
+      "corazon": ["Cuero", "Durazno (melocotón)", "Azafrán"],
+      "fondo": ["Vainilla", "Ámbar", "Almizcle", "Vetiver"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 27.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Liquid Brun",
+    "descripcion": "Liquid Brun de French Avenue es una fragancia de la familia olfativa Amaderada para Hombres. Esta fragrancia es nueva. Liquid Brun se lanzó en 2024. Las Notas de Salida son canela, flor de azahar del naranjo, cardamomo y bergamota; las Notas de Corazón son vainilla Bourbon y elemí; las Notas de Fondo son praliné, ambroxan, madera de gaiac y almizcle.",
+    "fotoPrincipal": "/images/fragancias/LiquidBrun.png",
+    "acordesPrincipales": "/images/fragancias/LiquidBrunAcordesPrincipales.png",
+    "calificacion": 4.60,
+    "piramideOlfativa": "/images/fragancias/LiquidBrunPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Canela", "Flor de azahar del naranjo", "Cardamomo", "Bergamota"],
+      "corazon": ["Vainilla Bourbon", "Elemí"],
+      "fondo": ["Praliné", "Ambroxan", "Madera de gaiac", "Almizcle"]
+    },
+    "familiaOlfativa": "Amaderada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 37.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Untold",
+    "descripcion": "Club de Nuit Untold de Armaf es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva. Club de Nuit Untold se lanzó en 2022. Las Notas de Salida son azafrán y jazmín; las Notas de Corazón son Amberwood y ámbar gris; las Notas de Fondo son resina de abeto y cedro.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitUntold.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitUntoldAcordesPrincipales.png",
+    "calificacion": 4.14,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitUntoldPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Azafrán", "Jazmín"],
+      "corazon": ["Amberwood", "Ámbar gris"],
+      "fondo": ["Resina de abeto", "Cedro"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
+    "precio": 44.99,
+    "tamano": "105ml"
+  },
+  {
+    "nombre": "Bade'e Al Oud Sublime",
+    "descripcion": "Bade'e Al Oud Sublime de Lattafa Perfumes es una fragancia de la familia olfativa Amaderada Aromática para Hombres y Mujeres. Esta fragrancia es nueva. Bade'e Al Oud Sublime se lanzó en 2023. Las Notas de Salida son manzana, lichi y rosa; las Notas de Corazón son ciruela y jazmín; las Notas de Fondo son vainilla, musgo y pachulí.",
+    "fotoPrincipal": "/images/fragancias/BadeeAlOudSublime.png",
+    "acordesPrincipales": "/images/fragancias/BadeeAlOudSublimeAcordesPrincipales.png",
+    "calificacion": 4.21,
+    "piramideOlfativa": "/images/fragancias/BadeeAlOudSublimePiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Manzana", "Lichi", "Rosa"],
+      "corazon": ["Ciruela", "Jazmín"],
+      "fondo": ["Vainilla", "Musgo", "Pachulí"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 30.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Qaed Al Fursan",
+    "descripcion": "Qaed Al Fursan de Lattafa Perfumes es una fragancia de la familia olfativa Aromática para Hombres y Mujeres. Qaed Al Fursan se lanzó en 2016. Las Notas de Salida son piña y azafrán; las Notas de Corazón son abeto balsámico y jazmín; las Notas de Fondo son ámbar, cedro y madera de oud.",
+    "fotoPrincipal": "/images/fragancias/QaedAlFursan.png",
+    "acordesPrincipales": "/images/fragancias/QaedAlFursanAcordesPrincipales.png",
+    "calificacion": 4.27,
+    "piramideOlfativa": "/images/fragancias/QaedAlFursanPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2016,
+    "notas": {
+      "salida": ["Piña", "Azafrán"],
+      "corazon": ["Abeto balsámico", "Jazmín"],
+      "fondo": ["Ámbar", "Cedro", "Madera de oud"]
+    },
+    "familiaOlfativa": "Aromática",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 28.99,
+    "tamano": "90ml"
+  },
+  {
+    "nombre": "Odyssey Mega Man",
+    "descripcion": "Odyssey Mega Man de Armaf es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Odyssey Mega Man se lanzó en 2023. Las Notas de Salida son naranja, jengibre, bergamota, limón (lima ácida) y menta; las Notas de Corazón son piña, geranio, enebro de Virginia y salvia; las Notas de Fondo son haba tonka, cedro, almizcle y vetiver.",
+    "fotoPrincipal": "/images/fragancias/OdysseyMegaMan.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyMegaManAcordesPrincipales.png",
+    "calificacion": 4.21,
+    "piramideOlfativa": "/images/fragancias/OdysseyMegaManPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Naranja", "Jengibre", "Bergamota", "Limón (lima ácida)", "Menta"],
+      "corazon": ["Piña", "Geranio", "Enebro de Virginia", "Salvia"],
+      "fondo": ["Haba tonka", "Cedro", "Almizcle", "Vetiver"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 33.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Mandarin Sky",
+    "descripcion": "Odyssey Mandarin Sky de Armaf es una fragancia de la familia olfativa para Hombres. Esta fragrancia es nueva. Odyssey Mandarin Sky se lanzó en 2023. Las Notas de Salida son mandarina, naranja, azafrán y salvia; las Notas de Corazón son caramelo, haba tonka y cempasúchil (tagete, clavelón); las Notas de Fondo son ambroxan, cedro y vetiver.",
+    "fotoPrincipal": "/images/fragancias/OdysseyMandarinSky.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyMandarinSkyAcordesPrincipales.png",
+    "calificacion": 4.39,
+    "piramideOlfativa": "/images/fragancias/OdysseyMandarinSkyPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Mandarina", "Naranja", "Azafrán", "Salvia"],
+      "corazon": ["Caramelo", "Haba tonka", "Cempasúchil (tagete, clavelón)"],
+      "fondo": ["Ambroxan", "Cedro", "Vetiver"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
+    "precio": 36.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Yara Moi",
+    "descripcion": "Yara Moi de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Yara Moi se lanzó en 2022. Las Notas de Salida son jazmín y durazno (melocotón); las Notas de Corazón son caramelo y ámbar; las Notas de Fondo son pachulí y sándalo.",
+    "fotoPrincipal": "/images/fragancias/YaraMoi.png",
+    "acordesPrincipales": "/images/fragancias/YaraMoiAcordesPrincipales.png",
+    "calificacion": 3.63,
+    "piramideOlfativa": "/images/fragancias/YaraMoiPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Jazmín", "Durazno (melocotón)"],
+      "corazon": ["Caramelo", "Ámbar"],
+      "fondo": ["Pachulí", "Sándalo"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Otoño", "Día"],
+    "precio": 30.99,
+    "tamano": "100ml"
+  }
+]
