@@ -8,7 +8,7 @@ import fragancias from '@/data/fragancias.json';
 export default function PerfumeListPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const perfumesPerPage = 6; // Número de perfumes por página
+  const perfumesPerPage = 10; // Número de perfumes por página
 
   // Filtrar perfumes según la búsqueda
   const filteredFragancias = fragancias.filter((fragancia) => {
@@ -24,14 +24,23 @@ export default function PerfumeListPage() {
 
   const totalPages = Math.ceil(filteredFragancias.length / perfumesPerPage);
 
-  // Funciones para cambiar de página
+  // Funciones para cambiar de página con scroll a la parte superior
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   const handleNextPage = () => {
+    scrollToTop();
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
   };
 
   const handlePrevPage = () => {
+    scrollToTop();
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
