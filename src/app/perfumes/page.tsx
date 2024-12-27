@@ -53,7 +53,7 @@ export default function PerfumeListPage() {
       </div>
 
       {/* Lista de perfumes */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
         {currentPerfumes.map((fragancia) => (
           <Link key={fragancia.nombre} href={`/perfumes/${fragancia.nombre.toLowerCase().replace(/ /g, '-')}`}>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-transform duration-300 hover:scale-105">
@@ -69,7 +69,7 @@ export default function PerfumeListPage() {
               <div className="p-4 text-center">
                 <h2 className="text-lg font-bold">{fragancia.nombre}</h2>
                 <p className="text-sm text-gray-600 mb-2">{fragancia.disenador}</p>
-                <p className="text-yellow-600 font-semibold">Precio: ${fragancia.precio.toFixed(2)}</p>
+                <p className="text-yellow-600 font-semibold">{fragancia.precio.toFixed(2)} €</p>
               </div>
             </div>
           </Link>

@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { FaHome, FaEnvelope } from 'react-icons/fa';
+import { TbPerfume } from "react-icons/tb";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +36,7 @@ export default function Navbar() {
         </h1>
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="block sm:hidden text-yellow-400 focus:outline-none"
+          className="block sm:hidden text-yellow-400 text-2xl focus:outline-none"
           aria-label="Abrir menú"
         >
           ☰
@@ -46,18 +48,36 @@ export default function Navbar() {
         >
           <ul className="flex flex-col space-y-6 p-6">
             <li>
-              <Link href="/" className="hover:text-yellow-400 transition-transform duration-300 ease-in-out transform hover:scale-105" onClick={handleLinkClick}>
-                Inicio
+              <Link
+                href="/"
+                className="flex items-center space-x-4 hover:text-yellow-400 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
+                onClick={handleLinkClick}
+              >
+                <FaHome className="text-xl" />
+                <span className="text-lg">Inicio</span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 bg-yellow-400 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
             </li>
             <li>
-              <Link href="/perfumes" className="hover:text-yellow-400 transition-transform duration-300 ease-in-out transform hover:scale-105" onClick={handleLinkClick}>
-                Perfumes
+              <Link
+                href="/perfumes"
+                className="flex items-center space-x-4 hover:text-yellow-400 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
+                onClick={handleLinkClick}
+              >
+                <TbPerfume className="text-xl" />
+                <span className="text-lg">Perfumes</span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 bg-yellow-400 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
             </li>
             {/* <li>
-              <Link href="/contacto" className="hover:text-yellow-400 transition-transform duration-300 ease-in-out transform hover:scale-105" onClick={handleLinkClick}>
-                Contacto
+              <Link
+                href="/contacto"
+                className="flex items-center space-x-4 hover:text-yellow-400 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
+                onClick={handleLinkClick}
+              >
+                <FaEnvelope className="text-xl" />
+                <span className="text-lg">Contacto</span>
+                <span className="absolute bottom-0 left-0 w-0 h-1 bg-yellow-400 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
             </li> */}
           </ul>
