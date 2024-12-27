@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FaHome, FaEnvelope } from 'react-icons/fa';
+import { FaHome, /* FaEnvelope */ } from 'react-icons/fa';
 import { TbPerfume } from "react-icons/tb";
 
 export default function Navbar() {
