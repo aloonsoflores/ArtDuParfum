@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Guarda los archivos y vuelve a intentar el despliegue en Vercel:
+
+git add .
+git commit -m "Corregir errores de ESLint"
+git push
+
 ## Getting Started
 
 First, run the development server:
