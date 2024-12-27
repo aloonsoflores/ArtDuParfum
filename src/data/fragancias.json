@@ -16,7 +16,7 @@
     },
     "familiaOlfativa": "Oriental",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
-    "precio": 29.99,
+    "precio": 24.99,
     "tamano": "100ml"
   },
   {
@@ -36,7 +36,7 @@
     },
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 39.99,
+    "precio": 29.99,
     "tamano": "100ml"
   },
   {
@@ -196,7 +196,7 @@
     },
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 29.99,
+    "precio": 32.99,
     "tamano": "100ml"
   },
   {
@@ -296,7 +296,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 27.99,
+    "precio": 26.99,
     "tamano": "90ml"
   },
   {
@@ -316,7 +316,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Verano", "Día"],
-    "precio": 30.99,
+    "precio": 25.99,
     "tamano": "100ml"
   },
   {
@@ -336,7 +336,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 42.99,
+    "precio": 44.99,
     "tamano": "100ml"
   },
   {
@@ -356,7 +356,7 @@
     },
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 42.99,
+    "precio": 44.99,
     "tamano": "100ml"
   },
   {
@@ -376,7 +376,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
-    "precio": 44.99,
+    "precio": 54.99,
     "tamano": "105ml"
   },
   {
@@ -396,7 +396,7 @@
     },
     "familiaOlfativa": "Oriental Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 30.99,
+    "precio": 32.99,
     "tamano": "100ml"
   },
   {
@@ -436,7 +436,7 @@
     },
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 29.99,
+    "precio": 37.99,
     "tamano": "100ml"
   },
   {
@@ -476,7 +476,7 @@
     },
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 29.99,
+    "precio": 25.99,
     "tamano": "100ml"
   },
   {
@@ -496,7 +496,7 @@
     },
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día"],
-    "precio": 37.99,
+    "precio": 39.99,
     "tamano": "100ml"
   },
   {
@@ -516,7 +516,7 @@
     },
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Invierno", "Otoño", "Día", "Noche"],
-    "precio": 35.99,
+    "precio": 49.99,
     "tamano": "100ml"
   },
   {
@@ -536,7 +536,7 @@
     },
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día"],
-    "precio": 29.99,
+    "precio": 37.99,
     "tamano": "100ml"
   },
   {
@@ -576,7 +576,7 @@
     },
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
-    "precio": 29.99,
+    "precio": 37.99,
     "tamano": "100ml"
   },
   {
@@ -596,7 +596,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 34.99,
+    "precio": 37.99,
     "tamano": "100ml"
   },
   {
@@ -636,7 +636,7 @@
     },
     "familiaOlfativa": "Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
-    "precio": 37.99,
+    "precio": 47.99,
     "tamano": "100ml"
   },
   {
@@ -656,7 +656,7 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
-    "precio": 44.99,
+    "precio": 51.99,
     "tamano": "105ml"
   },
   {
@@ -676,7 +676,7 @@
     },
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 30.99,
+    "precio": 32.99,
     "tamano": "100ml"
   },
   {
@@ -696,7 +696,7 @@
     },
     "familiaOlfativa": "Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 28.99,
+    "precio": 26.99,
     "tamano": "90ml"
   },
   {
@@ -716,7 +716,7 @@
     },
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
-    "precio": 33.99,
+    "precio": 34.99,
     "tamano": "100ml"
   },
   {
@@ -736,7 +736,47 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
-    "precio": 36.99,
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Candee",
+    "descripcion": "Odyssey Candee de Armaf es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Odyssey Candee se lanzó en 2024. Las Notas de Salida son fresa, geranio, bergamota, frambuesa y durazno (melocotón); las Notas de Corazón son jazmín, caramelo y maracuyá (fruta de la pasión); las Notas de Fondo son almizcle, pachulí y ámbar.",
+    "fotoPrincipal": "/images/fragancias/OdysseyCandee.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyCandeeAcordesPrincipales.png",
+    "calificacion": 3.42,
+    "piramideOlfativa": "/images/fragancias/OdysseyCandeePiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Fresa", "Geranio", "Bergamota", "Frambuesa", "Durazno (melocotón)"],
+      "corazon": ["Jazmín", "Caramelo", "Maracuyá (fruta de la pasión)"],
+      "fondo": ["Almizcle", "Pachulí", "Ámbar"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Otoño", "Día", "Noche"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Amber Oud Dubai Night",
+    "descripcion": "Amber Oud Dubai Night de Al Haramain Perfumes es una fragancia de la familia olfativa Oriental Amaderada para Hombres. Esta fragrancia es nueva. Amber Oud Dubai Night se lanzó en 2024. Las Notas de Salida son azafrán, bergamota y elemí; las Notas de Corazón son rosa de Bulgaria (rosa Damascena de Bulgaria), madera de oud y lirio de los valles (muguete); las Notas de Fondo son haba tonka, ámbar, almizcle blanco y musgo de roble.",
+    "fotoPrincipal": "/images/fragancias/AmberOudDubaiNight.png",
+    "acordesPrincipales": "/images/fragancias/AmberOudDubaiNightAcordesPrincipales.png",
+    "calificacion": 4.63,
+    "piramideOlfativa": "/images/fragancias/AmberOudDubaiNightPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Al Haramain Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Azafrán", "Bergamota", "Elemí"],
+      "corazon": ["Rosa de Bulgaria (rosa Damascena de Bulgaria)", "Madera de oud", "Lirio de los valles (muguete)"],
+      "fondo": ["Haba tonka", "Ámbar", "Almizcle blanco", "Musgo de roble"]
+    },
+    "familiaOlfativa": "Oriental Amaderada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 69.99,
     "tamano": "100ml"
   },
   {
@@ -756,7 +796,187 @@
     },
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Otoño", "Día"],
-    "precio": 30.99,
+    "precio": 25.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Taskeen Caramel Cascade",
+    "descripcion": "Taskeen Caramel Cascade de Paris Corner es una fragancia de la familia olfativa Floral Frutal Gourmand para Hombres y Mujeres. Esta fragrancia es nueva. Taskeen Caramel Cascade se lanzó en 2024. Las Notas de Salida son caramelo y leche; las Notas de Corazón son haba tonka y miel; las Notas de Fondo son vainilla y almizcle blanco.",
+    "fotoPrincipal": "/images/fragancias/TaskeenCaramelCascade.png",
+    "acordesPrincipales": "/images/fragancias/TaskeenCaramelCascadeAcordesPrincipales.png",
+    "calificacion": 3.70,
+    "piramideOlfativa": "/images/fragancias/TaskeenCaramelCascadePiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Paris Corner",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Caramelo", "Leche"],
+      "corazon": ["Haba tonka", "Miel"],
+      "fondo": ["Vainilla", "Almizcle blanco"]
+    },
+    "familiaOlfativa": "Floral Frutal Gourmand",
+    "ocasiones": ["Invierno", "Otoño", "Día"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Yara Candy",
+    "descripcion": "Yara Candy de Lattafa Perfumes es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres. Esta fragrancia es nueva. Yara Candy se lanzó en 2024. Las Notas de Salida son grosellas negras y Mandarina verde; las Notas de Corazón son Strawberry Fizz Candy y gardenia; las Notas de Fondo son vainilla, ámbar, almizcle y sándalo.",
+    "fotoPrincipal": "/images/fragancias/YaraCandy.png",
+    "acordesPrincipales": "/images/fragancias/YaraCandyAcordesPrincipales.png",
+    "calificacion": 4.10,
+    "piramideOlfativa": "/images/fragancias/YaraCandyPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Grosellas negras", "Mandarina verde"],
+      "corazon": ["Strawberry Fizz Candy", "Gardenia"],
+      "fondo": ["Vainilla", "Ámbar", "Almizcle", "Sándalo"]
+    },
+    "familiaOlfativa": "Floral Frutal Gourmand",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Spectra",
+    "descripcion": "Odyssey Spectra de Armaf es una fragancia de la familia olfativa Oriental Especiada para Hombres y Mujeres. Esta fragrancia es nueva. Odyssey Spectra se lanzó en 2024. Las Notas de Salida son canela, manzana y bergamota; las Notas de Corazón son canela, lavanda, lirio de los valles (muguete) y flor de azahar del naranjo; las Notas de Fondo son tabaco, haba tonka, vainilla, ámbar y pachulí.",
+    "fotoPrincipal": "/images/fragancias/OdysseySpectra.png",
+    "acordesPrincipales": "/images/fragancias/OdysseySpectraAcordesPrincipales.png",
+    "calificacion": 4.52,
+    "piramideOlfativa": "/images/fragancias/OdysseySpectraPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Canela", "Manzana", "Bergamota"],
+      "corazon": ["Canela", "Lavanda", "Lirio de los valles (muguete)", "Flor de azahar del naranjo"],
+      "fondo": ["Tabaco", "Haba tonka", "Vainilla", "Ámbar", "Pachulí"]
+    },
+    "familiaOlfativa": "Oriental Especiada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Limoni Fresh",
+    "descripcion": "Odyssey Limoni Fresh de Armaf es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva. Odyssey Limoni Fresh se lanzó en 2024. Las Notas de Salida son mandarina, limón (lima ácida), naranja dulce y bergamota; las Notas de Corazón son jengibre, Notas marinas y flor de azahar del naranjo; las Notas de Fondo son té, ámbar y almizcle.",
+    "fotoPrincipal": "/images/fragancias/OdysseyLimoniFresh.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyLimoniFreshAcordesPrincipales.png",
+    "calificacion": 4.52,
+    "piramideOlfativa": "/images/fragancias/OdysseyLimoniFreshPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Mandarina", "Limón (lima ácida)", "Naranja dulce", "Bergamota"],
+      "corazon": ["Jengibre", "Notas marinas", "Flor de azahar del naranjo"],
+      "fondo": ["Té", "Ámbar", "Almizcle"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Luscious",
+    "descripcion": "Luscious de French Avenue es una fragancia de la familia olfativa Aromática para Mujeres. Esta fragrancia es nueva. Luscious se lanzó en 2024. Las Notas de Salida son pistacho (pistache), cardamomo y bergamota; las Notas de Corazón son cacahuates y azafrán; las Notas de Fondo son vainilla, haba tonka, miel y almizcle.",
+    "fotoPrincipal": "/images/fragancias/Luscious.png",
+    "acordesPrincipales": "/images/fragancias/LusciousAcordesPrincipales.png",
+    "calificacion": 4.17,
+    "piramideOlfativa": "/images/fragancias/LusciousPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Pistacho (pistache)", "Cardamomo", "Bergamota"],
+      "corazon": ["Cacahuates", "Azafrán"],
+      "fondo": ["Vainilla", "Haba tonka", "Miel", "Almizcle"]
+    },
+    "familiaOlfativa": "Aromática",
+    "ocasiones": ["Invierno", "Primavera", "Otoño", "Día"],
+    "precio": 47.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Aoud",
+    "descripcion": "Odyssey Aoud de Armaf es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Esta fragrancia es nueva. Odyssey Aoud se lanzó en 2023. Las Notas de Salida son azafrán, lavanda y nuez moscada; las Notas de Corazón son madera de oud y notas amaderadas; las Notas de Fondo son almizcle, pachulí y ambroxan.",
+    "fotoPrincipal": "/images/fragancias/OdysseyAoud.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyAoudAcordesPrincipales.png",
+    "calificacion": 4.32,
+    "piramideOlfativa": "/images/fragancias/OdysseyAoudPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Azafrán", "Lavanda", "Nuez moscada"],
+      "corazon": ["Madera de oud", "Notas amaderadas"],
+      "fondo": ["Almizcle", "Pachulí", "Ambroxan"]
+    },
+    "familiaOlfativa": "Amaderada Especiada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Spectre Wraith",
+    "descripcion": "Spectre Wraith de French Avenue es una fragancia de la familia olfativa Amaderada Acuática para Hombres. Esta fragrancia es nueva. Spectre Wraith se lanzó en 2024. Las Notas de Salida son ron y especias; las Notas de Corazón son café, sándalo, pachulí y vetiver; la Nota de Fondo es caña de azúcar.",
+    "fotoPrincipal": "/images/fragancias/SpectreWraith.png",
+    "acordesPrincipales": "/images/fragancias/SpectreWraithAcordesPrincipales.png",
+    "calificacion": 4.17,
+    "piramideOlfativa": "/images/fragancias/SpectreWraithPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Ron", "Especias"],
+      "corazon": ["Café", "Sándalo", "Pachulí", "Vetiver"],
+      "fondo": ["Caña de azúcar"]
+    },
+    "familiaOlfativa": "Amaderada Acuática",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 40.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Meringue",
+    "descripcion": "Meringue de French Avenue es una fragancia de la familia olfativa Almizcle Amaderado Floral para Mujeres. Esta fragrancia es nueva. Meringue se lanzó en 2024. Las Notas de Salida son piña, mandarina y bergamota; las Notas de Corazón son gamuza y sándalo; las Notas de Fondo son almizcle blanco, abedul, vainilla y ámbar gris.",
+    "fotoPrincipal": "/images/fragancias/Meringue.png",
+    "acordesPrincipales": "/images/fragancias/MeringueAcordesPrincipales.png",
+    "calificacion": 4.12,
+    "piramideOlfativa": "/images/fragancias/MeringuePiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Piña", "Mandarina", "Bergamota"],
+      "corazon": ["Gamuza", "Sándalo"],
+      "fondo": ["Almizcle blanco", "Abedul", "Vainilla", "Ámbar gris"]
+    },
+    "familiaOlfativa": "Almizcle Amaderado Floral",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 47.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Khamrah Qahwa",
+    "descripcion": "Khamrah Qahwa de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Esta fragrancia es nueva. Khamrah Qahwa se lanzó en 2023. Las Notas de Salida son canela, cardamomo y jengibre; las Notas de Corazón son praliné, Frutas confitadas y flores blancas; las Notas de Fondo son vainilla, café, haba tonka, benjuí y almizcle.",
+    "fotoPrincipal": "/images/fragancias/KhamrahQahwa.png",
+    "acordesPrincipales": "/images/fragancias/KhamrahQahwaAcordesPrincipales.png",
+    "calificacion": 4.45,
+    "piramideOlfativa": "/images/fragancias/KhamrahQahwaPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Canela", "Cardamomo", "Jengibre"],
+      "corazon": ["Praliné", "Frutas confitadas", "Flores blancas"],
+      "fondo": ["Vainilla", "Café", "Haba tonka", "Benjuí", "Almizcle"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
     "tamano": "100ml"
   }
 ]
