@@ -33,16 +33,16 @@ export default function PerfumeListPage() {
   };
 
   const handleNextPage = () => {
-    scrollToTop();
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
+      scrollToTop();
     }
   };
 
   const handlePrevPage = () => {
-    scrollToTop();
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
+      scrollToTop();
     }
   };
 
