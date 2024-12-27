@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav className="bg-gray-900 text-white px-6 py-4 shadow-lg fixed top-0 left-0 right-0 z-50">
       <div className="flex justify-between items-center">
         <h1 className="text-xl font-bold">
-          <Link href="/">Art Du' Parfum</Link>
+          <Link href="/">Art Du&apos; Parfum</Link>
         </h1>
         <button
           onClick={() => setIsOpen(!isOpen)}

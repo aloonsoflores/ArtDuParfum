@@ -17,7 +17,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    let formErrors = { nombre: "", correo: "", mensaje: "" };
+    const formErrors = { nombre: "", correo: "", mensaje: "" };
     let isValid = true;
 
     // Validación de nombre

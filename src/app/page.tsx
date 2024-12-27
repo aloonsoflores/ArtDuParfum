@@ -11,7 +11,7 @@ export default function HomePage() {
       <div className="text-center relative z-10">
         {/* Animated Title */}
         <h1 className="text-5xl font-extrabold mb-6 animate-fadeIn">
-          Bienvenido a <span className="text-yellow-400">Art Du' Parfum</span>
+          Bienvenido a <span className="text-yellow-400">Art Du&apos; Parfum</span>
         </h1>
 
         {/* Subtitle with animation */}

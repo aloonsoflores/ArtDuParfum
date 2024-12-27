@@ -38,7 +38,7 @@ export default function Footer() {
 
       {/* Derechos de autor */}
       <p className="text-sm">
-        &copy; {new Date().getFullYear()} Art Du' Parfum. Todos los derechos reservados.
+        &copy; {new Date().getFullYear()} Art Du&apos; Parfum. Todos los derechos reservados.
       </p>
     </footer>
   );
