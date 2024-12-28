@@ -50,7 +50,7 @@ export default function PerfumeDetailPage() {
   const titulo = `${perfume.nombre} - ${perfume.disenador} ${genero}`;
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 mt-16 p-6 animate-fadeIn">
+    <main className="min-h-screen bg-gradient-to-b from-orange-50 via-white to-orange-100 mt-16 p-6 animate-fadeIn">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
         
         {/* Imagen del perfume */}

@@ -121,7 +121,7 @@ export default function PerfumeListPage() {
   };
 
   return (
-    <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-gray-50 via-white to-gray-100 text-gray-800">      
+    <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-orange-50 via-white to-orange-100 text-gray-800">      
       <h1 className="text-3xl font-bold mb-6 text-center text-orange-400">Catálogo de Perfumes {titulo}</h1>
 
       {/* Barra de búsqueda y botón de ordenar en línea */}
@@ -138,7 +138,7 @@ export default function PerfumeListPage() {
         {/* Botón para ordenar (en pantallas pequeñas, icono representativo) */}
         <div className="ml-4 sm:hidden">
           <button
-            className="p-2 bg-orange-400 text-white rounded-md"
+            className="p-4 bg-orange-400 text-white rounded-md"
             aria-label="Ordenar"
             onClick={handleSortButtonClick} // Cambia la opción de orden al hacer clic
           >

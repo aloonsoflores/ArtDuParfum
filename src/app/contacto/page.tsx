@@ -55,7 +55,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-gray-100 to-white">
+    <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-orange-50 via-white to-orange-100">
       <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8 space-y-6 animate-fadeIn">
         <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800 hover:text-yellow-600 transition-colors duration-300">
           Contáctanos

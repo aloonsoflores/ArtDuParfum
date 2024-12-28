@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FaHome } from 'react-icons/fa';
-import { TbPerfume } from "react-icons/tb";
+import { FaHome, FaList, FaEnvelope } from 'react-icons/fa';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,7 +56,7 @@ export default function Navbar() {
                 className="flex items-center space-x-4 hover:text-gray-500 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
                 onClick={handleLinkClick}
               >
-                <FaHome className="text-3xl" />
+                <FaHome className="text-2xl" />
                 <span className="text-xl">Inicio</span>
                 <span className="absolute bottom-0 left-0 w-0 h-1 bg-gray-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
@@ -68,22 +67,22 @@ export default function Navbar() {
                 className="flex items-center space-x-4 hover:text-gray-500 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
                 onClick={handleLinkClick}
               >
-                <TbPerfume className="text-3xl" />
+                <FaList className="text-2xl" />
                 <span className="text-xl">Perfumes</span>
                 <span className="absolute bottom-0 left-0 w-0 h-1 bg-gray-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 href="/contacto"
                 className="flex items-center space-x-4 hover:text-gray-500 transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 px-4 rounded-lg relative group"
                 onClick={handleLinkClick}
               >
-                <FaEnvelope className="text-3xl" />
+                <FaEnvelope className="text-2xl" />
                 <span className="text-xl">Contacto</span>
                 <span className="absolute bottom-0 left-0 w-0 h-1 bg-gray-500 transition-all duration-300 ease-in-out group-hover:w-full"></span>
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
 
@@ -99,11 +98,11 @@ export default function Navbar() {
               Perfumes
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link href="/contacto" className="hover:text-gray-500 transition-transform duration-300 ease-in-out transform hover:scale-105">
               Contacto
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>
