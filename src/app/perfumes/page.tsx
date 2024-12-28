@@ -38,7 +38,7 @@ export default function PerfumeListPage() {
   const { genero, titulo } = GeneroFilter();
 
   // Filtrar fragancias
-  let filteredFragancias = fragancias.filter((fragancia) => {
+  const filteredFragancias = fragancias.filter((fragancia) => {
     const matchesGenero = genero === "todos" || fragancia.genero.toLowerCase() === genero;
     const matchesSearchTerm =
       fragancia.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
