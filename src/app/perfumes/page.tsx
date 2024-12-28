@@ -1,17 +1,23 @@
 "use client";
 
-import { Suspense, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaSort } from "react-icons/fa";
 import fragancias from "@/data/fragancias.json";
 
-// Componente para manejar parámetros de búsqueda
-function GeneroFilter() {
-  const searchParams = useSearchParams();
-  const genero = searchParams?.get("genero") || "todos";
+export default function PerfumeListPage() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [sortOption, setSortOption] = useState("mejorValorados");
+  const [genero, setGenero] = useState("todos");
+  const [popupMessage, setPopupMessage] = useState("");
+  const [popupVisible, setPopupVisible] = useState(false);
+  const [fadeOut, setFadeOut] = useState(false);
 
+  const perfumesPerPage = 10;
+
+  // Determinar título basado en género
   const titulo =
     genero === "masculino"
       ? "para Hombres"
@@ -20,22 +26,6 @@ function GeneroFilter() {
       : genero === "unisex"
       ? "para Hombres y Mujeres"
       : "";
-
-  return { genero, titulo };
-}
-
-export default function PerfumeListPage() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [sortOption, setSortOption] = useState("mejorValorados");
-  const [popupMessage, setPopupMessage] = useState("");
-  const [popupVisible, setPopupVisible] = useState(false);
-  const [fadeOut, setFadeOut] = useState(false);
-
-  const perfumesPerPage = 10;
-
-  // Obtener género y título dentro de Suspense
-  const { genero, titulo } = GeneroFilter();
 
   // Filtrar fragancias
   const filteredFragancias = fragancias.filter((fragancia) => {
@@ -125,11 +115,9 @@ export default function PerfumeListPage() {
 
   return (
     <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-orange-50 via-white to-orange-100 text-gray-800">
-      <Suspense fallback={<p className="text-center">Cargando...</p>}>
-        <h1 className="text-3xl font-bold mb-6 text-center text-orange-400">
-          Catálogo de Perfumes {titulo}
-        </h1>
-      </Suspense>
+      <h1 className="text-3xl font-bold mb-6 text-center text-orange-400">
+        Catálogo de Perfumes {titulo}
+      </h1>
 
       {/* Barra de búsqueda y botón de ordenar */}
       <div className="mb-6 flex items-center justify-between">
@@ -202,28 +190,30 @@ export default function PerfumeListPage() {
       </div>
 
       {filteredFragancias.length === 0 && (
-        <p className="text-center text-gray-500 mt-6">No se encontraron perfumes.</p>
+        <p className="text-center text-gray-500 mt-6">No se encontraron fragancias.</p>
       )}
 
-      <div className="flex justify-center items-center mt-6">
-        {currentPage > 1 && (
+      {totalPages > 1 && (
+        <div className="mt-6 flex justify-center items-center space-x-4">
           <button
-            className="px-4 py-2 mx-2 bg-orange-400 text-white rounded-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-1"
             onClick={handlePrevPage}
+            disabled={currentPage === 1}
+            className="px-4 py-2 bg-orange-400 text-white rounded-md hover:bg-orange-500 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Anterior
           </button>
-        )}
-        <span className="text-gray-600">Página {currentPage} de {totalPages}</span>
-        {currentPage < totalPages && (
+          <span className="text-gray-600">
+            Página {currentPage} de {totalPages}
+          </span>
           <button
-            className="px-4 py-2 mx-2 bg-orange-400 text-white rounded-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-1"
             onClick={handleNextPage}
+            disabled={currentPage === totalPages}
+            className="px-4 py-2 bg-orange-400 text-white rounded-md hover:bg-orange-500 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Siguiente
           </button>
-        )}
-      </div>
+        </div>
+      )}
     </main>
   );
 }
