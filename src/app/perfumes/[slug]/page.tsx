@@ -66,7 +66,7 @@ export default function PerfumeDetailPage() {
 
         <div className="p-6">
           {/* Titulo con diseñador y género */}
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-4 hover:text-yellow-600 transition-colors duration-300">{titulo}</h1>
+          <h1 className="text-4xl font-bold text-center text-orange-400 mb-4 hover:text-orange-600 transition-colors duration-300">{titulo}</h1>
 
           {/* Calificación dinámica y Ocasiones de uso */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-6">
@@ -104,13 +104,13 @@ export default function PerfumeDetailPage() {
 
           {/* Precio */}
           <div className="mb-6 text-center">
-            <p className="text-2xl font-semibold text-yellow-600">{perfume.precio.toFixed(2)} €</p>
+            <p className="text-2xl font-semibold text-orange-600">{perfume.precio.toFixed(2)} €</p>
           </div>
 
           {/* Acordes principales con imagen */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
             <div className="text-center">
-              <h2 className="text-xl font-semibold text-gray-800 mb-6">Acordes principales</h2>
+              <h2 className="text-xl font-semibold text-orange-400 mb-6">Acordes principales</h2>
               <Image
                 src={perfume.acordesPrincipales}
                 alt="Acordes principales de la fragancia"
@@ -122,7 +122,7 @@ export default function PerfumeDetailPage() {
 
             {/* Pirámide olfativa con imagen */}
             <div className="text-center">
-              <h2 className="text-xl font-semibold text-gray-800 mb-6">Pirámide Olfativa de la Fragancia</h2>
+              <h2 className="text-xl font-semibold text-orange-400 mb-6">Pirámide Olfativa de la Fragancia</h2>
               <Image
                 src={perfume.piramideOlfativa}
                 alt="Pirámide olfativa de la fragancia"

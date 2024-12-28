@@ -1,16 +1,16 @@
-import { FaInstagram, FaTwitter, FaTiktok } from 'react-icons/fa';  // Importar el icono de TikTok
+import { FaInstagram, FaTwitter, FaTiktok } from 'react-icons/fa'; // Importar el icono de TikTok
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6 text-center">
+    <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-orange-500 py-6 text-center">
       <div className="mb-6">
-        <p className="mb-2">Síguenos en nuestras redes sociales:</p>
+        <p className="mb-2 text-orange-500">Síguenos en nuestras redes sociales:</p>
         <div className="flex justify-center gap-6 mt-2">
           {/* Enlace de TikTok */}
           <a
             href="#"
             aria-label="TikTok"
-            className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 ease-in-out transform hover:scale-105"
+            className="text-orange-400 hover:text-orange-600 transition-colors duration-300 ease-in-out transform hover:scale-105"
           >
             <FaTiktok size={24} />
           </a>
@@ -18,7 +18,7 @@ export default function Footer() {
           <a
             href="#"
             aria-label="Instagram"
-            className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 ease-in-out transform hover:scale-105"
+            className="text-orange-400 hover:text-orange-600 transition-colors duration-300 ease-in-out transform hover:scale-105"
           >
             <FaInstagram size={24} />
           </a>
@@ -26,7 +26,7 @@ export default function Footer() {
           <a
             href="#"
             aria-label="Twitter"
-            className="text-gray-300 hover:text-yellow-400 transition-colors duration-300 ease-in-out transform hover:scale-105"
+            className="text-orange-400 hover:text-orange-600 transition-colors duration-300 ease-in-out transform hover:scale-105"
           >
             <FaTwitter size={24} />
           </a>
@@ -34,10 +34,10 @@ export default function Footer() {
       </div>
 
       {/* Línea divisoria */}
-      <div className="border-t border-gray-700 my-4"></div>
+      <div className="border-t border-orange-300 my-4"></div>
 
       {/* Derechos de autor */}
-      <p className="text-sm">
+      <p className="text-sm text-orange-500">
         &copy; {new Date().getFullYear()} Art Du&apos; Parfum. Todos los derechos reservados.
       </p>
     </footer>
