@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaSort } from "react-icons/fa";
@@ -10,7 +10,7 @@ export default function PerfumeListPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOption, setSortOption] = useState("mejorValorados");
-  const [genero, setGenero] = useState("todos");
+  const [genero] = useState("todos");
   const [popupMessage, setPopupMessage] = useState("");
   const [popupVisible, setPopupVisible] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
