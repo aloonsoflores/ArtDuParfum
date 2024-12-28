@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -29,28 +29,6 @@ export default function PerfumeListPage() {
       fragancia.precio.toString().includes(searchTerm);
 
     return matchesGenero && matchesSearchTerm;
-  });
-
-  // Lógica para ordenar las fragancias según la opción seleccionada
-  const sortedFragancias = filteredFragancias.sort((a, b) => {
-    switch (sortOption) {
-      case 'mejorValorados':
-        return b.calificacion - a.calificacion; // Ordenar por calificación
-      case 'alfabeticamenteAZ':
-        return a.nombre.localeCompare(b.nombre); // Ordenar alfabéticamente A-Z
-      case 'alfabeticamenteZA':
-        return b.nombre.localeCompare(a.nombre); // Ordenar alfabéticamente Z-A
-      case 'precioMenorMayor':
-        return a.precio - b.precio; // Ordenar por precio de menor a mayor
-      case 'precioMayorMenor':
-        return b.precio - a.precio; // Ordenar por precio de mayor a menor
-      case 'fechaAntiguoReciente':
-        return a.anoDeLanzamiento - b.anoDeLanzamiento; // Ordenar por fecha de lanzamiento (antiguo a reciente)
-      case 'fechaRecienteAntiguo':
-        return b.anoDeLanzamiento - a.anoDeLanzamiento; // Ordenar por fecha de lanzamiento (reciente a antiguo)
-      default:
-        return 0;
-    }
   });
 
   const indexOfLastPerfume = currentPage * perfumesPerPage;
@@ -158,8 +136,8 @@ export default function PerfumeListPage() {
             <option value="alfabeticamenteZA">Alfabéticamente (Z-A)</option>
             <option value="precioMenorMayor">Precio (menor a mayor)</option>
             <option value="precioMayorMenor">Precio (mayor a menor)</option>
-            <option value="fechaAntiguoReciente">Fecha (antiguo a reciente)</option>
-            <option value="fechaRecienteAntiguo">Fecha (reciente a antiguo)</option>
+            <option value="fechaAntiguoReciente">Fecha (antiguo&#40;a&#41; a reciente)</option>
+            <option value="fechaRecienteAntiguo">Fecha (reciente a antiguo&#40;a&#41;)</option>
           </select>
         </div>
       </div>
