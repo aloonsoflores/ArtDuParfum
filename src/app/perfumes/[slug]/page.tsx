@@ -20,27 +20,29 @@ export default function PerfumeDetailPage() {
 
   // Validamos si el slug existe y buscamos el perfume
   const perfume = fragancias.find(
-    (f) => f.nombre.toLowerCase().replace(/ /g, '-') === slug
+    (f) => f.nombre.toLowerCase().replace(/ /g, "-") === slug
   );
+
+  const images = perfume
+    ? [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])]
+    : [];
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
+
+  useEffect(() => {
+    if (images.length > 0) {
+      const interval = setInterval(() => {
+        setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % images.length);
+      }, 10000);
+
+      return () => clearInterval(interval);
+    }
+  }, [images]);
 
   // Si no hay perfume, redirigir a 404
   if (!perfume) {
     notFound();
     return null;
   }
-
-  const images = [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])];
-  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-
-  // Cambia a la siguiente foto automáticamente cada 5 segundos
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000);
-
-    // Limpia el intervalo cuando el componente se desmonta
-    return () => clearInterval(interval);
-  }, [images.length]);
 
   // Función para cambiar a la foto anterior
   const handlePrevPhoto = () => {
