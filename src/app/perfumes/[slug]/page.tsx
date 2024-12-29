@@ -23,10 +23,10 @@ export default function PerfumeDetailPage() {
     (f) => f.nombre.toLowerCase().replace(/ /g, '-') === slug
   );
 
-  // Manejo del caso en el que no se encuentre el perfume
+  // Si no hay perfume, redirigir a 404
   if (!perfume) {
     notFound();
-    return null; // Para evitar cualquier otro renderizado
+    return null;
   }
 
   const images = [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])];
