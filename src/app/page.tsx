@@ -39,7 +39,7 @@ export default function HomePage() {
         <div className="grid grid-cols-3 gap-4">
           <Link
             href="/perfumes?genero=femenino"
-            className="relative block bg-gradient-to-r from-violet-400 via-violet-300 to-violet-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn-delay"
+            className="relative block bg-gradient-to-r from-violet-400 via-violet-300 to-violet-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn"
           >
             <div
               className="absolute inset-0 bg-cover bg-center opacity-20 rounded-lg"
@@ -50,7 +50,7 @@ export default function HomePage() {
           </Link>
           <Link
             href="/perfumes?genero=unisex"
-            className="relative block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn-delay"
+            className="relative block bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn"
           >
             <div
               className="absolute inset-0 bg-cover bg-center opacity-20 rounded-lg"
@@ -61,7 +61,7 @@ export default function HomePage() {
           </Link>
           <Link
             href="/perfumes?genero=masculino"
-            className="relative block bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn-delay"
+            className="relative block bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200 text-white text-lg font-semibold text-center py-8 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 animate-fadeIn"
           >
             <div
               className="absolute inset-0 bg-cover bg-center opacity-20 rounded-lg"

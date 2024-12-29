@@ -57,7 +57,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-orange-50 via-white to-orange-100">
       <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-8 space-y-6 animate-fadeIn">
-        <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800 hover:text-yellow-600 transition-colors duration-300">
+        <h1 className="text-3xl font-semibold mb-6 text-center text-orange-400 hover:text-orange-600 transition-colors duration-300">
           Contáctanos
         </h1>
         <form onSubmit={handleSubmit}>
@@ -107,7 +107,7 @@ export default function ContactPage() {
             {/* Botón de enviar */}
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-400 transition-all duration-300 ease-in-out"
+              className="w-full px-6 py-3 bg-orange-400 text-white rounded-lg hover:bg-orange-500 transition-all duration-300 ease-in-out"
             >
               Enviar
             </button>

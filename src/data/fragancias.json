@@ -978,5 +978,245 @@
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
     "tamano": "100ml"
+  },
+  {
+    "nombre": "Hareem Al Sultan Gold",
+    "descripcion": "Hareem Al Sultan Gold de Khadlaj Perfumes es una fragancia de la familia olfativa Floral para Mujeres. Esta fragrancia es nueva. Hareem Al Sultan Gold se lanzó en 2023. Las Notas de Salida son bergamota, jazmín y peonía; las Notas de Corazón son piña, durazno (melocotón) y ciruela; las Notas de Fondo son almizcle, sándalo y pachulí.",
+    "fotoPrincipal": "/images/fragancias/HareemAlSultanGold.png",
+    "acordesPrincipales": "/images/fragancias/HareemAlSultanGoldAcordesPrincipales.png",
+    "calificacion": 4.25,
+    "piramideOlfativa": "/images/fragancias/HareemAlSultanGoldPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Khadlaj Perfumes",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Bergamota", "Jazmín", "Peonía"],
+      "corazon": ["Piña", "Durazno (melocotón)", "Ciruela"],
+      "fondo": ["Almizcle", "Sándalo", "Pachulí"]
+    },
+    "familiaOlfativa": "Floral",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 34.99,
+    "tamano": "35ml"
+  },
+  {
+    "nombre": "Amber Oud Gold Edition",
+    "descripcion": "Amber Oud Gold Edition de Al Haramain Perfumes es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres. Amber Oud Gold Edition se lanzó en 2018. Las Notas de Salida son bergamota y notas verdes; las Notas de Corazón son notas dulces, melón, piña y ámbar; las Notas de Fondo son almizcle, vainilla y notas amaderadas.",
+    "fotoPrincipal": "/images/fragancias/AmberOudGoldEdition.png",
+    "acordesPrincipales": "/images/fragancias/AmberOudGoldEditionAcordesPrincipales.png",
+    "calificacion": 4.26,
+    "piramideOlfativa": "/images/fragancias/AmberOudGoldEditionPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Al Haramain Perfumes",
+    "anoDeLanzamiento": 2018,
+    "notas": {
+      "salida": ["Bergamota", "Notas verdes"],
+      "corazon": ["Notas dulces", "Melón", "Piña", "Ámbar"],
+      "fondo": ["Almizcle", "Vainilla", "Notas amaderadas"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 92.99,
+    "tamano": "120ml"
+  },
+  {
+    "nombre": "Teriaq",
+    "descripcion": "Teriaq de Lattafa Perfumes es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva. Teriaq se lanzó en 2024. La Nariz detrás de esta fragrancia es Quentin Bisch. Las Notas de Salida son caramelo, almendra amarga, chabacano y pimienta rosa; las Notas de Corazón son miel, ruibarbo, flores blancas y rosa; las Notas de Fondo son cuero, vainilla, almizcle, vetiver y ládano.",
+    "fotoPrincipal": "/images/fragancias/Teriaq.png",
+    "acordesPrincipales": "/images/fragancias/TeriaqAcordesPrincipales.png",
+    "calificacion": 3.93,
+    "piramideOlfativa": "/images/fragancias/TeriaqPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Caramelo", "Almendra amarga", "Chabacano", "Pimienta rosa"],
+      "corazon": ["Miel", "Ruibarbo", "Flores blancas", "Rosa"],
+      "fondo": ["Cuero", "Vainilla", "Almizcle", "Vetiver", "Ládano"]
+    },
+    "familiaOlfativa": "Oriental Vainilla",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 42.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Hayaati Belle",
+    "descripcion": "Hayaati Belle de Fragrance World es una fragancia de la familia olfativa Floral Frutal para Mujeres. Esta fragrancia es nueva. Hayaati Belle se lanzó en 2024. Las Notas de Salida son pera y durazno (melocotón); las Notas de Corazón son lirio de los valles (muguete), ylang-ylang, haba tonka y jazmín; las Notas de Fondo son almizcle, vainilla y notas amaderadas.",
+    "fotoPrincipal": "/images/fragancias/HayaatiBelle.png",
+    "acordesPrincipales": "/images/fragancias/HayaatiBelleAcordesPrincipales.png",
+    "calificacion": 4.28,
+    "piramideOlfativa": "/images/fragancias/HayaatiBellePiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Fragrance World",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Pera", "Durazno (melocotón)"],
+      "corazon": ["Lirio de los valles (muguete)", "Ylang-ylang", "Haba tonka", "Jazmín"],
+      "fondo": ["Almizcle", "Vainilla", "Notas amaderadas"]
+    },
+    "familiaOlfativa": "Floral Frutal",
+    "ocasiones": ["Otoño", "Día"],
+    "precio": 27.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Club de Nuit Milestone",
+    "descripcion": "Club de Nuit Milestone de Armaf es una fragancia de la familia olfativa Almizcle Amaderado Floral para Hombres y Mujeres. Club de Nuit Milestone se lanzó en 2019. Las Notas de Salida son notas marinas, Frutas rojas y bergamota; las Notas de Corazón son violeta, maderas blancas y sándalo; las Notas de Fondo son almizcle, ambroxan y vetiver.",
+    "fotoPrincipal": "/images/fragancias/ClubdeNuitMilestone.png",
+    "acordesPrincipales": "/images/fragancias/ClubdeNuitMilestoneAcordesPrincipales.png",
+    "calificacion": 3.99,
+    "piramideOlfativa": "/images/fragancias/ClubdeNuitMilestonePiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2019,
+    "notas": {
+      "salida": ["Notas marinas", "Frutas rojas", "Bergamota"],
+      "corazon": ["Violeta", "Maderas blancas", "Sándalo"],
+      "fondo": ["Almizcle", "Ambroxan", "Vetiver"]
+    },
+    "familiaOlfativa": "Almizcle Amaderado Floral",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 54.99,
+    "tamano": "105ml"
+  },
+  {
+    "nombre": "Odyssey Wild One Gold Edition",
+    "descripcion": "Odyssey Wild One Gold Edition de Armaf es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Esta fragrancia es nueva. Odyssey Wild One Gold Edition se lanzó en 2023. Las Notas de Salida son pimienta, bergamota, limón (lima ácida) y menta; las Notas de Corazón son vetiver, lavanda, jengibre y pimienta rosa; las Notas de Fondo son vetiver, sándalo, pachulí, elemí, cedro y almizcle.",
+    "fotoPrincipal": "/images/fragancias/OdysseyWildOneGoldEdition.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyWildOneGoldEditionAcordesPrincipales.png",
+    "calificacion": 4.03,
+    "piramideOlfativa": "/images/fragancias/OdysseyWildOneGoldEditionPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Pimienta", "Bergamota", "Limón (lima ácida)", "Menta"],
+      "corazon": ["Vetiver", "Lavanda", "Jengibre", "Pimienta rosa"],
+      "fondo": ["Vetiver", "Sándalo", "Pachulí", "Elemí", "Cedro", "Almizcle"]
+    },
+    "familiaOlfativa": "Amaderada Especiada",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Now Women",
+    "descripcion": "Now Women de RAVE es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Now Women se lanzó en 2023. Las Notas de Salida son Frutas rojas y naranja; las Notas de Corazón son malvavisco (bombón), jazmín y lirio de los valles (muguete); las Notas de Fondo son vainilla, almizcle y musgo.",
+    "fotoPrincipal": "/images/fragancias/NowWomen.png",
+    "acordesPrincipales": "/images/fragancias/NowWomenAcordesPrincipales.png",
+    "calificacion": 4.24,
+    "piramideOlfativa": "/images/fragancias/NowWomenPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "RAVE",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Frutas rojas", "Naranja"],
+      "corazon": ["Malvavisco (bombón)", "Jazmín", "Lirio de los valles (muguete)"],
+      "fondo": ["Vainilla", "Almizcle", "Musgo"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Now",
+    "descripcion": "Now de RAVE es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Now se lanzó en 2022. Las Notas de Salida son piña, bergamota, grosellas negras y manzana; las Notas de Corazón son abedul, pachulí, jazmín de Marruecos y rosa; las Notas de Fondo son almizcle, vainilla, musgo de roble y ámbar gris.",
+    "fotoPrincipal": "/images/fragancias/Now.png",
+    "acordesPrincipales": "/images/fragancias/NowAcordesPrincipales.png",
+    "calificacion": 4.23,
+    "piramideOlfativa": "/images/fragancias/NowPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "RAVE",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Piña", "Bergamota", "Grosellas negras", "Manzana"],
+      "corazon": ["Abedul", "Pachulí", "Jazmín de Marruecos", "Rosa"],
+      "fondo": ["Almizcle", "Vainilla", "Musgo de roble", "Ámbar gris"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 29.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Nuke 2.0",
+    "descripcion": "Nuke 2.0 de Fragrance World es una fragancia de la familia olfativa Aromática Especiada para Hombres. Esta fragrancia es nueva. Nuke 2.0 se lanzó en 2024.",
+    "fotoPrincipal": "/images/fragancias/Nuke20.png",
+    "acordesPrincipales": "/images/fragancias/Nuke20AcordesPrincipales.png",
+    "calificacion": 4.43,
+    "piramideOlfativa": "/images/fragancias/Nuke20PiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Fragrance World",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": [],
+      "corazon": [],
+      "fondo": []
+    },
+    "familiaOlfativa": "Aromática Especiada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 39.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Azzure Oud",
+    "descripcion": "Azzure Oud de French Avenue es una fragancia de la familia olfativa Oriental para Hombres. Esta fragrancia es nueva. Azzure Oud se lanzó en 2024. Las Notas de Salida son maracuyá (fruta de la pasión), notas afrutadas, rosa y azafrán; las Notas de Corazón son madera de oud, benjuí y pachulí; las Notas de Fondo son cuero, madera de gaiac, vainilla, ámbar, ládano, cedro y sándalo.",
+    "fotoPrincipal": "/images/fragancias/AzzureOud.png",
+    "acordesPrincipales": "/images/fragancias/AzzureOudAcordesPrincipales.png",
+    "calificacion": 4.24,
+    "piramideOlfativa": "/images/fragancias/AzzureOudPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Maracuyá (fruta de la pasión)", "Notas afrutadas", "Rosa", "Azafrán"],
+      "corazon": ["Madera de oud", "Benjuí", "Pachulí"],
+      "fondo": ["Cuero", "Madera de gaiac", "Vainilla", "Ámbar", "Ládano", "Cedro", "Sándalo"]
+    },
+    "familiaOlfativa": "Oriental",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 47.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Odyssey Aqua Edition",
+    "descripcion": "Odyssey Aqua Edition de Armaf es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Odyssey Aqua Edition se lanzó en 2023. Las Notas de Salida son naranja, toronja (pomelo) y abrótano; las Notas de Corazón son menta y lavanda; las Notas de Fondo son ambroxan, pachulí y ciprés.",
+    "fotoPrincipal": "/images/fragancias/OdysseyAquaEdition.png",
+    "acordesPrincipales": "/images/fragancias/OdysseyAquaEditionAcordesPrincipales.png",
+    "calificacion": 4.42,
+    "piramideOlfativa": "/images/fragancias/OdysseyAquaEditionPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "Armaf",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Naranja", "Toronja (pomelo)", "Abrótano"],
+      "corazon": ["Menta", "Lavanda"],
+      "fondo": ["Ambroxan", "Pachulí", "Ciprés"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Primavera", "Verano", "Día"],
+    "precio": 34.99,
+    "tamano": "100ml"
+  },
+  {
+    "nombre": "Teriaq Intense",
+    "descripcion": "Teriaq Intense de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Especiada para Hombres y Mujeres. Esta fragrancia es nueva. Teriaq Intense se lanzó en 2024. La Nariz detrás de esta fragrancia es Quentin Bisch. Las Notas de Salida son azafrán y bergamota; las Notas de Corazón son Plum Liquor y canela; las Notas de Fondo son ámbar, haba tonka y benjuí.",
+    "fotoPrincipal": "/images/fragancias/TeriaqIntense.png",
+    "acordesPrincipales": "/images/fragancias/TeriaqIntenseAcordesPrincipales.png",
+    "calificacion": 4.48,
+    "piramideOlfativa": "/images/fragancias/TeriaqIntensePiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Azafrán", "Bergamota"],
+      "corazon": ["Plum Liquor", "Canela"],
+      "fondo": ["Ámbar", "Haba tonka", "Benjuí"]
+    },
+    "familiaOlfativa": "Oriental Especiada",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 47.99,
+    "tamano": "100ml"
   }
 ]
