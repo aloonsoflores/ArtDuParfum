@@ -14,8 +14,6 @@ import {
 } from "react-icons/fa";
 
 export default function PerfumeDetailPage() {
-  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-  
   // Usamos useParams() para obtener el slug de la URL
   const params = useParams();
   const slug = params?.slug;
@@ -25,11 +23,14 @@ export default function PerfumeDetailPage() {
     (f) => f.nombre.toLowerCase().replace(/ /g, '-') === slug
   );
 
-  // Si no se encuentra el perfume, mostramos una página 404
-  if (!perfume) return notFound();
-
+  // Manejo del caso en el que no se encuentre el perfume
+  if (!perfume) {
+    notFound();
+    return null; // Para evitar cualquier otro renderizado
+  }
 
   const images = [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])];
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
   // Cambia a la siguiente foto automáticamente cada 5 segundos
   useEffect(() => {
