@@ -14,6 +14,8 @@ import {
 } from "react-icons/fa";
 
 export default function PerfumeDetailPage() {
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
+  
   // Usamos useParams() para obtener el slug de la URL
   const params = useParams();
   const slug = params?.slug;
@@ -28,7 +30,6 @@ export default function PerfumeDetailPage() {
 
 
   const images = [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])];
-  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
   // Cambia a la siguiente foto automáticamente cada 5 segundos
   useEffect(() => {
