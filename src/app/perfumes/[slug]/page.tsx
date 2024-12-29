@@ -1,9 +1,17 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { notFound, useParams } from 'next/navigation'; // Importamos useParams
 import Image from 'next/image'; // Asegurándonos de que la imagen se maneje correctamente
 import fragancias from '@/data/fragancias.json';
-import { FaSun, FaMoon, FaSnowflake, FaLeaf, FaUmbrella, FaCanadianMapleLeaf } from 'react-icons/fa';
+import {
+  FaSun,
+  FaMoon,
+  FaSnowflake,
+  FaLeaf,
+  FaUmbrella,
+  FaCanadianMapleLeaf,
+} from "react-icons/fa";
 
 export default function PerfumeDetailPage() {
   // Usamos useParams() para obtener el slug de la URL
@@ -17,6 +25,32 @@ export default function PerfumeDetailPage() {
 
   // Si no se encuentra el perfume, mostramos una página 404
   if (!perfume) return notFound();
+
+
+  const images = [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])];
+  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
+
+  // Cambia a la siguiente foto automáticamente cada 5 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 10000);
+
+    // Limpia el intervalo cuando el componente se desmonta
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  // Función para cambiar a la foto anterior
+  const handlePrevPhoto = () => {
+    setCurrentPhotoIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  // Función para cambiar a la siguiente foto
+  const handleNextPhoto = () => {
+    setCurrentPhotoIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
 
   // Calificación dinámica
   const getCalificacionColor = (calificacion: number) => {
@@ -52,16 +86,63 @@ export default function PerfumeDetailPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-orange-50 via-white to-orange-100 mt-16 p-6 animate-fadeIn">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-        
-        {/* Imagen del perfume */}
-        <div className="relative w-full h-80">
-          <Image
-            src={perfume.fotoPrincipal}
-            alt={`Imagen de ${perfume.nombre}`}
-            width={1200}
-            height={800}
-            className="w-full h-full object-contain object-center rounded-t-lg"
-          />
+
+        {/* Carrusel de fotos */}
+        <div className="relative w-full h-80 overflow-hidden group mt-6">
+          {/* Contenedor de las imágenes con transición suave */}
+          <div
+            className="flex transition-transform duration-700 ease-in-out"
+            style={{
+              transform: `translateX(-${currentPhotoIndex * 100}%)`,
+            }}
+          >
+            {images.map((image, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-full h-80"
+              >
+                <Image
+                  src={image}
+                  alt={`Foto ${index + 1} de ${perfume.nombre}`}
+                  width={1200}
+                  height={800}
+                  className="w-full h-full object-contain object-center rounded-t-lg"
+                />
+              </div>
+            ))}
+          </div>
+
+          {/* Botón anterior */}
+          <button
+            onClick={handlePrevPhoto}
+            className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white rounded-full p-3 shadow-md hover:bg-gray-700 hover:scale-110 transition-transform duration-300 hidden group-hover:block"
+            aria-label="Foto anterior"
+          >
+            &#8249;
+          </button>
+
+          {/* Botón siguiente */}
+          <button
+            onClick={handleNextPhoto}
+            className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white rounded-full p-3 shadow-md hover:bg-gray-700 hover:scale-110 transition-transform duration-300 hidden group-hover:block"
+            aria-label="Foto siguiente"
+          >
+            &#8250;
+          </button>
+
+          {/* Indicadores de navegación */}
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            {images.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentPhotoIndex(index)}
+                className={`w-6 h-2 rounded-full ${
+                  index === currentPhotoIndex ? "bg-orange-500" : "bg-gray-300"
+                } hover:bg-orange-400 transition-colors duration-300`}
+                aria-label={`Ver foto ${index + 1}`}
+              ></button>
+            ))}
+          </div>
         </div>
 
         <div className="p-6">

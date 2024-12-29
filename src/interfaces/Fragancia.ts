@@ -2,6 +2,7 @@ export interface Fragancia {
   nombre: string;
   descripcion: string,
   fotoPrincipal: string;
+  fotosAdicionales: string[];
   acordesPrincipales: string;
   calificacion: number;
   piramideOlfativa: string;
