@@ -192,6 +192,25 @@ export default function PerfumeDetailPage() {
             <p className="text-2xl font-semibold text-orange-600">{perfume.precio.toFixed(2)} €</p>
           </div>
 
+          {/* Referencia de dupe si está disponible */}
+          {perfume.dupe && perfume.fotoDupe && (
+            <div className="flex flex-col items-center mb-6">
+              <p className="text-xl font-semibold text-orange-400">
+                Esta fragancia me recuerda a: 
+              </p>
+              <Image
+                src={perfume.fotoDupe}
+                alt={`Referencia a ${perfume.dupe}`}
+                width={100}
+                height={100}
+                className="w-48 h-48 object-contain my-2"
+              />
+              <p className="text-md text-gray-700 italic">
+                <span className="font-semibold">{perfume.dupe}</span>
+              </p>
+            </div>
+          )}
+
           {/* Acordes principales con imagen */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-6">
             <div className="text-center">

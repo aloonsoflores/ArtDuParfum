@@ -18,7 +18,9 @@
     "familiaOlfativa": "Oriental",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 24.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Y Eau de Parfum Yves Saint Laurent",
+    "fotoDupe": "/images/fragancias/FakharBlackFotoDupe.png"
   },
   {
     "nombre": "9pm",
@@ -39,7 +41,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Ultra Male Jean Paul Gaultier",
+    "fotoDupe": "/images/fragancias/9pmFotoDupe.png"
   },
   {
     "nombre": "Club de Nuit Woman",
@@ -60,7 +64,9 @@
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 39.99,
-    "tamano": "105ml"
+    "tamano": "105ml",
+    "dupe": "Coco Mademoiselle Chanel",
+    "fotoDupe": "/images/fragancias/ClubdeNuitWomanFotoDupe.png"
   },
   {
     "nombre": "Shaheen Silver",
@@ -81,7 +87,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Aventus Creed",
+    "fotoDupe": "/images/fragancias/ShaheenSilverFotoDupe.png"
   },
   {
     "nombre": "Amber Oud Ultra Violet",
@@ -102,7 +110,9 @@
     "familiaOlfativa": "Almizcle Floral",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 79.99,
-    "tamano": "120ml"
+    "tamano": "120ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "His Confession",
@@ -123,7 +133,9 @@
     "familiaOlfativa": "Oriental Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 49.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Amber Oud Aqua Dubai",
@@ -144,7 +156,9 @@
     "familiaOlfativa": "Aromática Frutal",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 69.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Imagination Louis Vuitton",
+    "fotoDupe": "/images/fragancias/AmberOudAquaDubaiFotoDupe.png"
   },
   {
     "nombre": "Asad",
@@ -165,7 +179,9 @@
     "familiaOlfativa": "Oriental",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 27.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Sauvage Elixir Dior",
+    "fotoDupe": "/images/fragancias/AsadFotoDupe.png"
   },
   {
     "nombre": "Khamrah",
@@ -186,7 +202,9 @@
     "familiaOlfativa": "Aromática Especiada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Bade'e Al Oud Amethyst",
@@ -207,7 +225,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 32.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Atomic Rose Initio Parfums Prives",
+    "fotoDupe": "/images/fragancias/BadeeAlOudAmethystFotoDupe.png"
   },
   {
     "nombre": "Delilah",
@@ -228,7 +248,9 @@
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 24.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Delina Parfums de Marly",
+    "fotoDupe": "/images/fragancias/DelilahFotoDupe.png"
   },
   {
     "nombre": "Sehr",
@@ -249,7 +271,9 @@
     "familiaOlfativa": "Oriental Floral",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Fakhar Rose",
@@ -270,7 +294,9 @@
     "familiaOlfativa": "Floral",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "L'Interdit Eau de Parfum Givenchy",
+    "fotoDupe": "/images/fragancias/FakharRoseFotoDupe.png"
   },
   {
     "nombre": "Club de Nuit Intense Man Limited Edition Parfum",
@@ -291,7 +317,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 79.99,
-    "tamano": "105ml"
+    "tamano": "105ml",
+    "dupe": "Aventus Creed",
+    "fotoDupe": "/images/fragancias/ClubdeNuitIntenseManLimitedEditionParfumFotoDupe.png"
   },
   {
     "nombre": "Qaed Al Fursan Unlimited",
@@ -312,7 +340,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 26.99,
-    "tamano": "90ml"
+    "tamano": "90ml",
+    "dupe": "Coco Vanille Mancera",
+    "fotoDupe": "/images/fragancias/QaedAlFursanUnlimitedFotoDupe.png"
   },
   {
     "nombre": "Yara Tous",
@@ -333,7 +363,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Verano", "Día"],
     "precio": 25.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Fame Rabanne",
+    "fotoDupe": "/images/fragancias/YaraTousFotoDupe.png"
   },
   {
     "nombre": "Musamam",
@@ -354,7 +386,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 44.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Nebras",
@@ -375,7 +409,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 44.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Eilish Billie Eilish",
+    "fotoDupe": "/images/fragancias/NebrasFotoDupe.png"
   },
   {
     "nombre": "Club de Nuit Blue Iconic",
@@ -396,7 +432,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 54.99,
-    "tamano": "105ml"
+    "tamano": "105ml",
+    "dupe": "Bleu de Chanel Eau de Parfum Chanel",
+    "fotoDupe": "/images/fragancias/ClubdeNuitBlueIconicFotoDupe.png"
   },
   {
     "nombre": "Bade'e Al Oud Oud for Glory",
@@ -417,7 +455,9 @@
     "familiaOlfativa": "Oriental Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 32.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Oud for Greatness Initio Parfums Prives",
+    "fotoDupe": "/images/fragancias/BadeeAlOudOudforGloryFotoDupe.png"
   },
   {
     "nombre": "Hayaati",
@@ -438,7 +478,9 @@
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 27.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Invictus Rabanne",
+    "fotoDupe": "/images/fragancias/HayaatiFotoDupe.png"
   },
   {
     "nombre": "Khair Fusion",
@@ -459,7 +501,9 @@
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 37.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Eden Sparkling Lychee | 39 Eau de Parfum Kayali Fragrances",
+    "fotoDupe": "/images/fragancias/KhairFusionFotoDupe.png"
   },
   {
     "nombre": "Club de Nuit Precieux",
@@ -480,7 +524,9 @@
     "familiaOlfativa": "Oriental Amaderada",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 69.99,
-    "tamano": "55ml"
+    "tamano": "55ml",
+    "dupe": "Absolu Aventus Creed",
+    "fotoDupe": "/images/fragancias/ClubdeNuitPrecieuxFotoDupe.png"
   },
   {
     "nombre": "Yara",
@@ -501,7 +547,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 25.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Noble Blush",
@@ -522,7 +570,9 @@
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Eclaire",
@@ -543,7 +593,9 @@
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Invierno", "Otoño", "Día", "Noche"],
     "precio": 49.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Bianco Latte Giardini Di Toscana",
+    "fotoDupe": "/images/fragancias/EclaireFotoDupe.png"
   },
   {
     "nombre": "Khair Confection",
@@ -564,7 +616,9 @@
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día"],
     "precio": 37.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Vanilla Candy Rock Sugar | 42 Kayali Fragrances",
+    "fotoDupe": "/images/fragancias/KhairConfectionFotoDupe.png"
   },
   {
     "nombre": "Asad Zanzibar",
@@ -585,7 +639,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Khair Pistachio",
@@ -606,7 +662,9 @@
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Primavera", "Verano", "Otoño", "Día"],
     "precio": 37.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Yum Pistachio Gelato | 33 Kayali Fragrances",
+    "fotoDupe": "/images/fragancias/KhairPistachioFotoDupe.png"
   },
   {
     "nombre": "Maahir Legacy",
@@ -627,7 +685,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 37.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Sedley Parfums de Marly",
+    "fotoDupe": "/images/fragancias/MaahirLegacyFotoDupe.png"
   },
   {
     "nombre": "Hayaati Gold Elixir",
@@ -648,7 +708,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 27.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Liquid Brun",
@@ -669,7 +731,9 @@
     "familiaOlfativa": "Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 47.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Althaïr Parfums de Marly",
+    "fotoDupe": "/images/fragancias/LiquidBrunFotoDupe.png"
   },
   {
     "nombre": "Club de Nuit Untold",
@@ -690,7 +754,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
     "precio": 51.99,
-    "tamano": "105ml"
+    "tamano": "105ml",
+    "dupe": "Baccarat Rouge 540 Maison Francis Kurkdjian",
+    "fotoDupe": "/images/fragancias/ClubdeNuitUntoldFotoDupe.png"
   },
   {
     "nombre": "Bade'e Al Oud Sublime",
@@ -711,7 +777,9 @@
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 32.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Eden Juicy Apple | 01 Eau De Parfum Kayali Fragrances",
+    "fotoDupe": "/images/fragancias/BadeeAlOudSublimeFotoDupe.png"
   },
   {
     "nombre": "Qaed Al Fursan",
@@ -732,7 +800,9 @@
     "familiaOlfativa": "Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 26.99,
-    "tamano": "90ml"
+    "tamano": "90ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Odyssey Mega Man",
@@ -753,7 +823,9 @@
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Y Eau de Parfum Yves Saint Laurent",
+    "fotoDupe": "/images/fragancias/OdysseyMegaManFotoDupe.png"
   },
   {
     "nombre": "Odyssey Mandarin Sky",
@@ -774,7 +846,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día", "Noche"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Scandal Pour Homme Jean Paul Gaultier",
+    "fotoDupe": "/images/fragancias/OdysseyMandarinSkyFotoDupe.png"
   },
   {
     "nombre": "Odyssey Candee",
@@ -795,7 +869,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Otoño", "Día", "Noche"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Amber Oud Dubai Night",
@@ -816,7 +892,9 @@
     "familiaOlfativa": "Oriental Amaderada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 69.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Arabians Tonka Montale",
+    "fotoDupe": "/images/fragancias/AmberOudDubaiNightFotoDupe.png"
   },
   {
     "nombre": "Yara Moi",
@@ -837,7 +915,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Otoño", "Día"],
     "precio": 25.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Taskeen Caramel Cascade",
@@ -858,7 +938,9 @@
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Invierno", "Otoño", "Día"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Bianco Latte Giardini Di Toscana",
+    "fotoDupe": "/images/fragancias/TaskeenCaramelCascadeFotoDupe.png"
   },
   {
     "nombre": "Yara Candy",
@@ -879,7 +961,9 @@
     "familiaOlfativa": "Floral Frutal Gourmand",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Odyssey Spectra",
@@ -900,7 +984,9 @@
     "familiaOlfativa": "Oriental Especiada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Odyssey Limoni Fresh",
@@ -921,7 +1007,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Luscious",
@@ -942,7 +1030,9 @@
     "familiaOlfativa": "Aromática",
     "ocasiones": ["Invierno", "Primavera", "Otoño", "Día"],
     "precio": 47.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Yum Pistachio Gelato | 33 Kayali Fragrances",
+    "fotoDupe": "/images/fragancias/LusciousFotoDupe.png"
   },
   {
     "nombre": "Odyssey Aoud",
@@ -963,7 +1053,9 @@
     "familiaOlfativa": "Amaderada Especiada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Spectre Wraith",
@@ -984,7 +1076,9 @@
     "familiaOlfativa": "Amaderada Acuática",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 40.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Black Phantom By Kilian",
+    "fotoDupe": "/images/fragancias/SpectreWraithFotoDupe.png"
   },
   {
     "nombre": "Meringue",
@@ -1005,7 +1099,9 @@
     "familiaOlfativa": "Almizcle Amaderado Floral",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 47.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Khamrah Qahwa",
@@ -1026,7 +1122,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Hareem Al Sultan Gold",
@@ -1047,7 +1145,9 @@
     "familiaOlfativa": "Floral",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 34.99,
-    "tamano": "35ml"
+    "tamano": "35ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Amber Oud Gold Edition",
@@ -1068,7 +1168,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 92.99,
-    "tamano": "120ml"
+    "tamano": "120ml",
+    "dupe": "Erba Pura Xerjoff",
+    "fotoDupe": "/images/fragancias/AmberOudGoldEditionFotoDupe.png"
   },
   {
     "nombre": "Teriaq",
@@ -1089,7 +1191,9 @@
     "familiaOlfativa": "Oriental Vainilla",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 42.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Hayaati Belle",
@@ -1110,7 +1214,9 @@
     "familiaOlfativa": "Floral Frutal",
     "ocasiones": ["Otoño", "Día"],
     "precio": 27.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Club de Nuit Milestone",
@@ -1131,7 +1237,9 @@
     "familiaOlfativa": "Almizcle Amaderado Floral",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 54.99,
-    "tamano": "105ml"
+    "tamano": "105ml",
+    "dupe": "Millésime Impérial Creed",
+    "fotoDupe": "/images/fragancias/ClubdeNuitMilestoneFotoDupe.png"
   },
   {
     "nombre": "Odyssey Wild One Gold Edition",
@@ -1152,7 +1260,9 @@
     "familiaOlfativa": "Amaderada Especiada",
     "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Now Women",
@@ -1173,7 +1283,9 @@
     "familiaOlfativa": null,
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Burberry Her Elixir de Parfum Burberry",
+    "fotoDupe": "/images/fragancias/NowWomenFotoDupe.png"
   },
   {
     "nombre": "Now",
@@ -1194,7 +1306,9 @@
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 29.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   },
   {
     "nombre": "Nuke 2.0",
@@ -1215,7 +1329,9 @@
     "familiaOlfativa": "Aromática Especiada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 39.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Spicebomb Extreme Viktor&Rolf",
+    "fotoDupe": "/images/fragancias/Nuke20FotoDupe.png"
   },
   {
     "nombre": "Azzure Oud",
@@ -1236,7 +1352,9 @@
     "familiaOlfativa": "Oriental",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 47.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Oud Maracujá Maison Crivelli",
+    "fotoDupe": "/images/fragancias/AzzureOudFotoDupe.png"
   },
   {
     "nombre": "Odyssey Aqua Edition",
@@ -1257,7 +1375,9 @@
     "familiaOlfativa": "Amaderada Aromática",
     "ocasiones": ["Primavera", "Verano", "Día"],
     "precio": 34.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": "Invictus Platinum Rabanne",
+    "fotoDupe": "/images/fragancias/OdysseyAquaEditionFotoDupe.png"
   },
   {
     "nombre": "Teriaq Intense",
@@ -1278,6 +1398,8 @@
     "familiaOlfativa": "Oriental Especiada",
     "ocasiones": ["Invierno", "Otoño", "Noche"],
     "precio": 47.99,
-    "tamano": "100ml"
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   }
 ]

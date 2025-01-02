@@ -18,4 +18,6 @@ export interface Fragancia {
   ocasiones: string[];
   precio: number;
   tamano: string;
+  dupe: string;
+  fotoDupe: string;
 }
