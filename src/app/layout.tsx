@@ -1,4 +1,5 @@
 import './globals.css';
+import { Suspense } from "react";
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -12,7 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="bg-gray-50 text-gray-800">
         <Navbar />
-        <main>{children}</main>
+        <Suspense fallback={<div>Loading...</div>}>
+          <main>{children}</main>
+        </Suspense>
         <Footer />
       </body>
     </html>
