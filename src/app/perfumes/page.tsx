@@ -1,21 +1,29 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { FaSort } from "react-icons/fa";
 import fragancias from "@/data/fragancias.json";
 
 export default function PerfumeListPage() {
+  const searchParams = useSearchParams();
+  const generoQuery = searchParams.get("genero") || "todos";
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOption, setSortOption] = useState("mejorValorados");
-  const [genero] = useState("todos");
+  const [genero, setGenero] = useState(generoQuery);
   const [popupMessage, setPopupMessage] = useState("");
   const [popupVisible, setPopupVisible] = useState(false);
   const [fadeOut, setFadeOut] = useState(false);
 
   const perfumesPerPage = 10;
+
+  // Sincronizar el estado de 'genero' con el query string
+  useEffect(() => {
+    setGenero(generoQuery);
+  }, [generoQuery]);
 
   // Determinar título basado en género
   const titulo =
