@@ -1401,5 +1401,74 @@
     "tamano": "100ml",
     "dupe": null,
     "fotoDupe": null
+  },
+  {
+    "nombre": "Hayaati Al Maleky",
+    "descripcion": "Hayaati Al Maleky de Lattafa Perfumes es una fragancia de la familia olfativa Oriental Especiada para Hombres y Mujeres. Esta fragrancia es nueva. Hayaati Al Maleky se lanzó en 2022. Las Notas de Salida son pimienta rosa, nuez moscada, bergamota y jengibre; las Notas de Corazón son cedro, notas amaderadas, incienso y ládano; las Notas de Fondo son almizcle, ámbar y ámbar gris.",
+    "fotoPrincipal": "/images/fragancias/HayaatiAlMaleky.png",
+    "fotosAdicionales": [],
+    "acordesPrincipales": "/images/fragancias/HayaatiAlMalekyAcordesPrincipales.png",
+    "calificacion": 4.29,
+    "piramideOlfativa": "/images/fragancias/HayaatiAlMalekyPiramideOlfativa.png",
+    "genero": "Unisex",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2022,
+    "notas": {
+      "salida": ["Pimienta rosa", "Nuez moscada", "Bergamota", "Jengibre"],
+      "corazon": ["Cedro", "Notas amaderadas", "Incienso", "Ládamo"],
+      "fondo": ["Almizcle", "Ámbar", "Ámbar gris"]
+    },
+    "familiaOlfativa": "Oriental Especiada",
+    "ocasiones": ["Invierno", "Primavera", "Verano", "Otoño", "Día", "Noche"],
+    "precio": 27.99,
+    "tamano": "100ml",
+    "dupe": "Phantom Rabanne",
+    "fotoDupe": "/images/fragancias/HayaatiAlMalekyFotoDupe.png"
+  },
+  {
+    "nombre": "Spectre Ghost",
+    "descripcion": "Spectre Ghost de French Avenue es una fragancia de la familia olfativa Amaderada Aromática para Hombres. Esta fragrancia es nueva. Spectre Ghost se lanzó en 2023. Las Notas de Salida son jengibre, bergamota y cardamomo; las Notas de Corazón son grosellas negras, pimienta rosa y rosa; las Notas de Fondo son vainilla, cedro y pachulí.",
+    "fotoPrincipal": "/images/fragancias/SpectreGhost.png",
+    "fotosAdicionales": [],
+    "acordesPrincipales": "/images/fragancias/SpectreGhostAcordesPrincipales.png",
+    "calificacion": 4.29,
+    "piramideOlfativa": "/images/fragancias/SpectreGhostPiramideOlfativa.png",
+    "genero": "Masculino",
+    "disenador": "French Avenue",
+    "anoDeLanzamiento": 2023,
+    "notas": {
+      "salida": ["Jengibre", "Bergamota", "Cardamomo"],
+      "corazon": ["Grosellas negras", "Pimienta rosa", "Rosa"],
+      "fondo": ["Vainilla", "Cedro", "Pachulí"]
+    },
+    "familiaOlfativa": "Amaderada Aromática",
+    "ocasiones": ["Invierno", "Otoño", "Noche"],
+    "precio": 40.99,
+    "tamano": "100ml",
+    "dupe": "Ani Nishane",
+    "fotoDupe": "/images/fragancias/SpectreGhostFotoDupe.png"
+  },
+  {
+    "nombre": "Her Confession",
+    "descripcion": "Her Confession de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Esta fragrancia es nueva. Her Confession se lanzó en 2024. Las Notas de Salida son Místico y canela; las Notas de Corazón son nardos, Mahonial, jazmín y incienso; las Notas de Fondo son vainilla, haba tonka y almizcle.",
+    "fotoPrincipal": "/images/fragancias/HerConfession.png",
+    "fotosAdicionales": [],
+    "acordesPrincipales": "/images/fragancias/HerConfessionAcordesPrincipales.png",
+    "calificacion": 4.15,
+    "piramideOlfativa": "/images/fragancias/HerConfessionPiramideOlfativa.png",
+    "genero": "Femenino",
+    "disenador": "Lattafa Perfumes",
+    "anoDeLanzamiento": 2024,
+    "notas": {
+      "salida": ["Místico", "Canela"],
+      "corazon": ["Nardos", "Mahonial", "Jazmín", "Incienso"],
+      "fondo": ["Vainilla", "Haba tonka", "Almizcle"]
+    },
+    "familiaOlfativa": null,
+    "ocasiones": ["Invierno", "Otoño", "Día"],
+    "precio": 49.99,
+    "tamano": "100ml",
+    "dupe": null,
+    "fotoDupe": null
   }
 ]
