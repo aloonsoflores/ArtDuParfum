@@ -9,7 +9,7 @@ import fragancias from "@/data/fragancias.json";
 
 export default function PerfumeListPage() {
   const searchParams = useSearchParams();
-  const generoQuery = searchParams.get("genero") || "todos";
+  const generoQuery = searchParams && searchParams.get("genero") || "todos";
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOption, setSortOption] = useState("mejorValorados");
