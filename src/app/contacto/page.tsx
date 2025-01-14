@@ -96,14 +96,14 @@ export default function ContactPage() {
     });
   };
 
-  const showPopup = (message: string) => {
+  /* const showPopup = (message: string) => {
     setPopupMessage(message);
     setPopupVisible(true);
     setFadeOut(false);
 
     setTimeout(() => setFadeOut(true), 2000); // Inicia la animación de desvanecimiento
     setTimeout(() => setPopupVisible(false), 2500); // Oculta el popup
-  };
+  }; */
 
   return (
     <main className="min-h-screen mt-16 p-6 bg-gradient-to-b from-orange-50 via-white to-orange-100">
