@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 
@@ -15,7 +15,32 @@ export default function ContactPage() {
     mensaje: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [popupMessage, setPopupMessage] = useState("");
+  const [popupVisible, setPopupVisible] = useState(false);
+  const [popupType, setPopupType] = useState<"success" | "error">("success");
+  const [fadeOut, setFadeOut] = useState(false);
+
+  // Para mostrar un mensaje de éxito
+  const showSuccessMessage = (message: string) => {
+    setPopupType("success");
+    setPopupMessage(message);
+    setPopupVisible(true);
+    setFadeOut(false);
+    setTimeout(() => setFadeOut(true), 2000);
+    setTimeout(() => setPopupVisible(false), 2500);
+  };
+
+  // Para mostrar un mensaje de error
+  const showErrorMessage = (message: string) => {
+    setPopupType("error");
+    setPopupMessage(message);
+    setPopupVisible(true);
+    setFadeOut(false);
+    setTimeout(() => setFadeOut(true), 2000);
+    setTimeout(() => setPopupVisible(false), 2500);
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const formErrors = { nombre: "", correo: "", mensaje: "" };
     let isValid = true;
@@ -42,8 +67,25 @@ export default function ContactPage() {
     setErrors(formErrors);
 
     if (isValid) {
-      // Aquí puedes enviar el formulario
-      console.log("Formulario enviado:", formData);
+      try {
+        const response = await fetch("/api/sendEmail", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+          showSuccessMessage("Correo enviado exitosamente.");
+          setFormData({ nombre: "", correo: "", mensaje: "" });
+        } else {
+          showErrorMessage("Error al enviar el correo.");
+        }
+      } catch (error) {
+        console.error("Error al enviar el formulario:", error);
+        showErrorMessage("Error al enviar el formulario.");
+      }
     }
   };
 
@@ -52,6 +94,15 @@ export default function ContactPage() {
       ...formData,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const showPopup = (message: string) => {
+    setPopupMessage(message);
+    setPopupVisible(true);
+    setFadeOut(false);
+
+    setTimeout(() => setFadeOut(true), 2000); // Inicia la animación de desvanecimiento
+    setTimeout(() => setPopupVisible(false), 2500); // Oculta el popup
   };
 
   return (
@@ -114,6 +165,18 @@ export default function ContactPage() {
           </div>
         </form>
       </div>
+
+      {/* Popup de mensaje */}
+      {popupVisible && (
+        <div
+          className={`fixed left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 px-6 py-4 rounded-md shadow-lg z-50 transition-opacity duration-500 ease-out ${
+            fadeOut ? "opacity-0" : "opacity-100"
+          } ${popupType === "success" ? "bg-green-500 text-white" : "bg-red-500 text-white"}`}
+        >
+          {popupMessage}
+        </div>
+      )}
+
     </main>
   );
 }
