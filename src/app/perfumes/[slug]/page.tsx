@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { notFound, useParams } from 'next/navigation'; // Importamos useParams
 import Image from 'next/image'; // Asegurándonos de que la imagen se maneje correctamente
 import fragancias from '@/data/fragancias.json';
@@ -23,9 +23,10 @@ export default function PerfumeDetailPage() {
     (f) => f.nombre.toLowerCase().replace(/ /g, "-") === slug
   );
 
-  const images = perfume
-    ? [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])]
-    : [];
+  const images = useMemo(
+    () => (perfume ? [perfume.fotoPrincipal, ...(perfume.fotosAdicionales || [])] : []),
+    [perfume]
+  );
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
   useEffect(() => {
